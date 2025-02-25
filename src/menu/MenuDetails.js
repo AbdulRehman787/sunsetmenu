@@ -9,7 +9,7 @@ const MenuDetails = ({ item, goBack }) => {
       </div>
       <div className="details-content">
         <h2 className="details-title">{item.name}</h2>
-        <p className="details-price">Price: ${item.price}</p>
+        <p className="details-price">Price: {item.price}</p>
         <p className="details-description">
           A delicious {item.name}, made with high-quality ingredients to give you the perfect taste.
         </p>

@@ -62,7 +62,7 @@ const Menu = () => {
             <div key={id} className="menu-item" onClick={() => setSelectedItem(item)}>
               <img src={item.img} alt={item.name} className="menu-img" /> {/* 🖼️ Show Image */}
               <p className="menu-name">{item.name}</p>
-              <p className="menu-price">${item.price}</p>
+              <p className="menu-price">{item.price}</p>
             </div>
           ))
         ) : (
