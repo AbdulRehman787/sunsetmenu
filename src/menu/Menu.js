@@ -6,7 +6,7 @@ import "./style.css";
 const categories = [
   { categ: "All" },
   { categ: "Hot Coffee" },
-  { categ: "Cold Drink" },
+  { categ: "Cold Coffee" },
   { categ: "FILTERED COFFEE" },
   { categ: "Fuice & Water" },
   { categ: "BREAKFAST" },

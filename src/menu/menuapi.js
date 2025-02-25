@@ -50,42 +50,42 @@ const menuapi = [
     {
         name: "ICED SPANISH",
         price: 25,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "ICED CAFE LATTE",
         price: 22,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "HIBISCUS",
         price: 25,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "ICED PASSION",
         price: 25,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "MATCHA LATTE",
         price: 30,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "CREAMY MATCHA",
         price: 20,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "SUNSET SIGNATURE",
         price: 33,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
     {
         name: "AÇAÌ SMOOTHIE",
         price: 28,
-        categrory: "Cold Drink"
+        categrory: "Cold Coffee"
     },
 
     {
