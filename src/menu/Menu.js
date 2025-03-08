@@ -2,14 +2,17 @@ import React, { useState } from "react";
 import menuapi from "./menuapi";
 import MenuDetails from "./MenuDetails"; // Import Menu Details
 import "./style.css";
-
+import StarRatings from "react-star-ratings";
 const categories = [
   { categ: "All" },
   { categ: "Hot Coffee" },
   { categ: "Cold Coffee" },
   { categ: "FILTERED COFFEE" },
+  
   { categ: "Fuice & Water" },
   { categ: "BREAKFAST" },
+  { categ: "CROISSANT" },
+
   { categ: "SANDWICH" },
   { categ: "DESERT" },
 ];
@@ -31,7 +34,11 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <h1 className="title">Sunset Coffee</h1>
+    
+<div className="title-container">
+<img src="/images/logoe.png" alt="Logo" className="logo"  />
+<h1 className="title">Sunset Coffee</h1>
+</div>
 
       {/* Search Bar */}
       <input

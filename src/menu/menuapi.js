@@ -1,309 +1,388 @@
+import React from 'react';
+import StarRatings from 'react-star-ratings';
+
 const menuapi = [
-    {
-        name: "ESPRESSO",
-        price: 18,
-        categrory: "Hot Coffee",
-        img: "/images/0.jpg"
-    },
-    {
-        name: "Piccolo",
-        price: 22,
-        categrory: "Hot Coffee",
-        img: '/images/1.jpg'
-    },
-    {
-        name: "Cortado",
-        price: 22,
-        categrory: "Hot Coffee",
-        img: '/images/2.jpg'
-    },
-    {
-        name: "Americano",
-        price: 20,
-        categrory: "Hot Coffee"
-    },
-    {
-        name: "CAPPUCCINO",
-        price: 23,
-        categrory: "Hot Coffee"
-    },
-    {
-        name: "CAFE LATTE",
-        price: 23,
-        categrory: "Hot Coffee"
-    },
-    {
-        name: "FLAT WHITE",
-        price: 23,
-        categrory: "Hot Coffee"
-    },
-    {
-        name: "SPANISH LATTE",
-        price: 25,
-        categrory: "Hot Coffee"
-    },
-    {
-        name: "WINTER CHOCO",
-        price: 25,
-        categrory: "Hot Coffee"
-    },
-    {
-        name: "ICED SPANISH",
-        price: 25,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "ICED CAFE LATTE",
-        price: 22,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "HIBISCUS",
-        price: 25,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "ICED PASSION",
-        price: 25,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "MATCHA LATTE",
-        price: 30,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "CREAMY MATCHA",
-        price: 20,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "SUNSET SIGNATURE",
-        price: 33,
-        categrory: "Cold Coffee"
-    },
-    {
-        name: "AÇAÌ SMOOTHIE",
-        price: 28,
-        categrory: "Cold Coffee"
-    },
+  {
+      name: "ESPRESSO",
+      price: 18,
+      categrory: "Hot Coffee",
+      img: "/images/ep1.jpg",
+      rating: 4.5
+  },
+  {
+      name: "Piccolo",
+      price: 22,
+      categrory: "Hot Coffee",
+      img: '/images/picclo.jpg',
+      rating: 4.0
+  },
+  {
+      name: "Cortado",
+      price: 22,
+      categrory: "Hot Coffee",
+      img: '/images/cortado.jpg',
+      rating: 4.5
+  },
+  {
+      name: "Americano",
+      price: 20,
+      categrory: "Hot Coffee",
+      img: '/images/america.jpg',
+      rating: 4.5
+  },
+  {
+      name: "CAPPUCCINO",
+      price: 23,
+      categrory: "Hot Coffee",
+         img: '/images/capucino.jpg'
+  },
+  {
+      name: "CAFE LATTE",
+      price: 23,
+      categrory: "Hot Coffee",
+       img: '/images/cortado.jpg'
+  },
+  {
+      name: "FLAT WHITE",
+      price: 23,
+      categrory: "Hot Coffee",
+     img: '/images/flatwhite.jpg'
+  },
+  {
+      name: "SPANISH LATTE",
+      price: 25,
+      categrory: "Hot Coffee",
+      img: '/images/cortado.jpg'
+  },
+  {
+      name: "WINTER CHOCO",
+      price: 25,
+      categrory: "Hot Coffee",
+      img: '/images/choco.jpg'
+  },
+  {
+      name: "ICED SPANISH",
+      price: 25,
+      categrory: "Cold Coffee",
+       img: '/images/icedspanish.jpg'
+  },
+  {
+      name: "ICED CAFE LATTE",
+      price: 22,
+      categrory: "Cold Coffee",
+       img: '/images/icedcaffee.jpg'
+  },
+  {
+      name: "HIBISCUS",
+      price: 25,
+      categrory: "Cold Coffee"
+  },
+  {
+      name: "ICED PASSION",
+      price: 25,
+      categrory: "Cold Coffee"
+  },
+  {
+      name: "MATCHA LATTE",
+      price: 30,
+      categrory: "Cold Coffee"
+  },
+  {
+      name: "CREAMY MATCHA",
+      price: 20,
+      categrory: "Cold Coffee"
+  },
+  {
+      name: "SUNSET SIGNATURE",
+      price: 33,
+      categrory: "Cold Coffee"
+  },
+  {
+      name: "AÇAÌ SMOOTHIE",
+      price: 28,
+      categrory: "Cold Coffee"
+  },
 
-    {
-        name: "V 60",
-        price: 35,
-        categrory: "FILTERED COFFEE"
-    },
-    {
-        name: "COLD BREW",
-        price: 33,
-        categrory: "FILTERED COFFEE"
-    },
+  {
+      name: "V 60",
+      price: 35,
+      categrory: "FILTERED COFFEE",
+       img: '/images/v60.jpg'
+  },
+  {
+      name: "COLD BREW",
+      price: 33,
+      categrory: "FILTERED COFFEE",
+       img: '/images/coldb.jpg'
+  },
 
-    {
-        name: "CHEMEX",
-        price: 33,
-        categrory: "FILTERED COFFEE"
-    },
+  {
+      name: "CHEMEX",
+      price: 33,
+      categrory: "FILTERED COFFEE"
+  },
 
-    {
-        name: "Orange Juice",
-        price: 25,
-        categrory: "Fuice & Water"
-    },
-    {
-        name: "Water",
-        price: 5,
-        categrory: "Fuice & Water"
-    },
-    {
-        name: "Sparkling  Water",
-        price: 10,
-        categrory: "Fuice & Water"
-    },
-    {
-        name: "AVOCADO TOAST",
-        price: 35,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "CHEESE SANDWICH",
-        price: 25,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "CROISSANT",
-        price: 17,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "EGG BUN SANDWICH",
-        price: 30,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "CROISSANT CHEESE",
-        price: 25,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "CROISSANT EGG & CHEESE",
-        price: 33,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "EGG BENEDICT",
-        price: 35,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "FALAFEL TOAST",
-        price: 30,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "OMELETTE",
-        price: 35,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "TRUFFLE EGG TOAST",
-        price: 35,
-        categrory: "BREAKFAST"
-    },
-    {
-        name: "HALLOUMI SANDWICH",
-        price: 30,
-        categrory: "SANDWICH",
-    },
-    {
-        name: "TUNA SANDWICH",
-        price: 32,
-        categrory: "SANDWICH"
-    },
-    {
-        name: "CHICKEN AVO",
-        price: 35,
-        categrory: "BREAKFAST",
-        img: "/images/16.jpg"
-    },
-    {
-        name: "PEPPERONI SANDWICH",
-        price: 30,
-        categrory: "SANDWICH",
-       
-    },
-    {
-        name: "PEPPERONI PIZZA SANDWICH",
-        price: 33,
-        categrory: "SANDWICH",
-         img: "/images/17.jpg"
-    },
-    {
-        name: "CHICKEN AVO SANDWICH",
-        price: 35,
-        categrory: "SANDWICH",
-        img: "/images/16.jpg"
+  {
+      name: "Orange Juice",
+      price: 25,
+      categrory: "Fuice & Water"
+  },
+  {
+      name: "Water",
+      price: 5,
+      categrory: "Fuice & Water"
+  },
+  {
+      name: "Sparkling  Water",
+      price: 10,
+      categrory: "Fuice & Water"
+  },
+  {
+      name: "AVOCADO TOAST",
+      price: 35,
+      categrory: "BREAKFAST",
+       img: '/images/6.jpg',
+       desc:'A delicious avocado toast topped with creamy mashed avocado, a sprinkle of seasoning, and a hint of lemon for the perfect light and healthy bite!'
+  },  {
+    name: "Rocket Sandwich",
+    price: 35,
+    categrory: "BREAKFAST",
+     img: '/images/10.jpg',
+     desc:'A fresh and flavorful rocket sandwich with crisp rocket leaves, creamy spread, and hearty brown bread for a wholesome and delicious bite!'
+},
+  {
+    name: "Turkish Egg ",
+    price: 35,
+    categrory: "BREAKFAST",
+     img: '/images/8.jpg',
+     desc:'A traditional Turkish egg dish with poached eggs, rich yogurt, and a flavorful garlic butter sauce, topped with spices for a savory delight!'
 
-    },
+},
+  {
+      name: "CHEESE SANDWICH",
+      price: 25,
+      categrory: "BREAKFAST",
+      img: '/images/cheeses.jpg',
+      desc:"A classic cheese sandwich with melted cheese between two slices of toasted bread, creating a warm and gooey comfort food treat!"
+  },
+  {
+      name: "CROISSANT",
+      price: 17,
+      categrory: "CROISSANT",
+      img: '/images/13.jpg',
+      desc:'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
 
-    {
-        name: "AÇAÌ BOWL",
-        price: 35,
-        categrory: "DESERT",
-         img: "/images/28.jpg"
-    },
-    {
-        name: "AÇAÌ SMOOTHIE",
-        price: 33,
-        categrory: "DESERT",
-    },
-    {
-        name: "BROWNIES",
-        price: 28,
-        categrory: "DESERT",
-         img: "/images/19.jpg"
-    }, {
-        name: "COOKIES",
-        price: 18,
-        categrory: "DESERT"
-    },
-    {
-        name: "PUDDING",
-        price: 32,
-        categrory: "DESERT",
-        img: "/images/18.jpg"
-    },
-    {
-        name: "DATE PUDDING",
-        price: 35,
-        categrory: "DESERT",
-        img: "/images/20.jpg"
-    },
-    {
-        name: "FRENCH TOAST",
-        price: 39,
-        categrory: "DESERT"
-        ,
-        img: "/images/25.jpg"
-    },
-    {
-        name: "MOLTEN LAVA CAKE",
-        price: 30,
-        categrory: "DESERT",
+  },
+  {
+      name: "EGG BUN SANDWICH",
+      price: 30,
+      categrory: "BREAKFAST",
+      img: '/images/eggbun.jpg',
+      desc:'A delicious egg bun sandwich with a soft, fluffy bun filled with a perfectly cooked egg, fresh veggies, and a savory sauce for a satisfying bite!'
+  },
+  {
+      name: "CROISSANT CHEESE",
+      price: 25,
+      categrory: "CROISSANT",
+      img: '/images/14.jpg',
+      desc:"A buttery, flaky croissant with a rich and creamy cheese filling, perfect for a light and savory treat!"
+  },
+  {
+      name: "CROISSANT EGG & CHEESE",
+      price: 33,
+      categrory: "CROISSANT",
+      img: '/images/12.jpg',
+      desc:"A buttery, flaky croissant filled with fluffy scrambled eggs and melted cheese, creating a deliciously rich and satisfying breakfast treat!"
+  },
+  {
+      name: "EGG BENEDICT",
+      price: 35,
+      categrory: "BREAKFAST"
+  },
+  {
+      name: "FALAFEL TOAST",
+      price: 30,
+      categrory: "BREAKFAST",
+        img: "/images/4.jpg",
+        desc:"A tasty falafel toast with crispy falafel patties, fresh veggies, and a drizzle of tahini sauce, all nestled between toasted bread for a flavorful bite!"
+  },
+  {
+      name: "OMELETTE",
+      price: 35,
+      categrory: "BREAKFAST",
+      img: "/images/11.jpg",
+      desc:"A fluffy and savory omelette, packed with fresh veggies, melted cheese, and perfectly seasoned for a delightful breakfast treat!"
+  },
+  {
+      name: "TRUFFLE EGG TOAST",
+      price: 35,
+      categrory: "BREAKFAST",  img: "/images/9.jpg",
+desc:"A luxurious truffle egg toast with creamy scrambled eggs infused with truffle oil, served on a crispy toasted bread for a rich and indulgent flavor!"
+  },
+  {
+      name: "HALLOUMI SANDWICH",
+      price: 30,
+      categrory: "SANDWICH",
+      img: "/images/7.jpg",
+      desc:'A delicious Halloumi sandwich with grilled halloumi cheese, fresh veggies, and a flavorful sauce, all packed in toasted bread!'
+  },
+  {
+      name: "TUNA SANDWICH",
+      price: 32,
+      categrory: "SANDWICH",
+         img: "/images/15.jpg",
+         desc:'A classic tuna sandwich with creamy tuna filling, crisp lettuce, and fresh bread for a perfect savory bite!'
+  },
+  {
+      name: "CHICKEN AVO",
+      price: 35,
+      categrory: "BREAKFAST",
+      img: "/images/16.jpg"
+  },
+  {
+      name: "PEPPERONI SANDWICH",
+      price: 30,
+      categrory: "SANDWICH",
+      img: "/images/17.jpg",
+      desc:'A flavorful pepperoni sandwich with melted cheese, zesty sauce, and crispy bread for a perfect savory delight!'
 
+     
+  },
+  {
+      name: "PEPPERONI PIZZA SANDWICH",
+      price: 33,
+      categrory: "SANDWICH",
+       img: "/images/17.jpg",
+       desc:'A delicious fusion of pizza and sandwich, loaded with spicy pepperoni, melted cheese, and zesty marinara sauce in crispy toasted bread!'
+  },
+  {
+      name: "CHICKEN AVO SANDWICH",
+      price: 35,
+      categrory: "SANDWICH",
+      img: "/images/16.jpg",
+      desc:"A tasty chicken avocado sandwich with juicy grilled chicken, creamy avocado, and fresh veggies in toasted bread!"
+
+  },
+
+  {
+      name: "AÇAÌ BOWL",
+      price: 35,
+      categrory: "DESERT",
+       img: "/images/28.jpg",
+       desc:"A delicious and nutrient-packed Açaí Bowl, topped with fresh fruits, granola, and honey for the perfect energy boost!"
+  },
+  {
+      name: "AÇAÌ SMOOTHIE",
+      price: 33,
+      categrory: "DESERT",
+      img: '/images/acai.jpg',
+      desc:"A refreshing and creamy Açaí Smoothie, packed with antioxidants and blended with fresh fruits for a perfect energy boost!"
+  },
+  {
+      name: "BROWNIES",
+      price: 28,
+      categrory: "DESERT",
+       img: "/images/19.jpg"
+  }, {
+      name: "COOKIES",
+      price: 18,
+      categrory: "DESERT",
+      img: '/images/cookies.jpg',
+      desc:"Freshly baked, soft, and chewy cookies with a perfect balance of sweetness and crunch in every bite!"
+  },
+  {
+      name: "PUDDING",
+      price: 32,
+      categrory: "DESERT",
+      img: "/images/18.jpg",
+      desc:"A rich and creamy pudding, perfectly smooth and sweet for a delightful treat!"
+  },
+  {
+      name: "DATE PUDDING",
+      price: 35,
+      categrory: "DESERT",
+      img: "/images/20.jpg",
+      desc:'A warm and moist date pudding, rich in flavor with a caramel-like sweetness in every bite!'
+  },
+  {
+      name: "FRENCH TOAST",
+      price: 39,
+      categrory: "DESERT"
+      ,
+      img: "/images/25.jpg",
+      desc:"Golden, crispy French toast, perfectly sweet and topped with syrup for a delicious breakfast treat!"
+  },
+  {
+      name: "MOLTEN LAVA CAKE",
+      price: 30,
+      categrory: "DESERT",
+      img: "/images/motlin.jpg",
+      desc:"A rich and decadent molten lava cake with a gooey chocolate center that melts in every bite!"
+  },
+  {
+      name: "SAN SEBASTIÁN",
+      price: 37,
+      categrory: "DESERT",
+      img: "/images/26.jpg",
+      desc:"A creamy and rich San Sebastian cheesecake with a perfectly caramelized top and a melt-in-your-mouth texture!"
+  },
+  {
+      name: "JAPANESE PANCAKE",
+      price: 37,
+      categrory: "DESERT",
+      img: "/images/21.jpg",
+      desc:"Fluffy and light Japanese pancakes, stacked high with a soft, cloud-like texture and a sweet, delicate flavor!"
+  },
+  {
+      name: "SUNSET MANGO CHEESE CAKE",
+      price: 37,
+      categrory: "DESERT",
+      desc:'A rich and creamy mango cheesecake with a buttery crust, topped with fresh mango for a perfect tropical delight!'
+  },
+  {
+      name: "SUNSET TOASTED ICECREAM",
+      price: 37,
+      categrory: "DESERT",
+      img: "/images/27.jpg",
+      desc:"A unique and delicious toasted ice cream, with a warm, crispy outer layer and a cool, creamy center!"
+
+  },
+  {
+      name: "TIRAMISU",
+      price: 32,
+      categrory: "DESERT",
+      img: "/images/29.jpg",
+      desc:"A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!"
+  },
+  {
+      name: "COOKIES TIRAMISU",
+      price: 32,
+      categrory: "DESERT",
+      desc:"A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!"
+ 
     },
-    {
-        name: "SAN SEBASTIÁN",
-        price: 37,
-        categrory: "DESERT",
-        img: "/images/26.jpg"
-    },
-    {
-        name: "JAPANESE PANCAKE",
-        price: 37,
-        categrory: "DESERT",
-        img: "/images/21.jpg"
-    },
-    {
-        name: "SUNSET MANGO CHEESE CAKE",
-        price: 37,
-        categrory: "DESERT"
-    },
-    {
-        name: "SUNSET TOASTED ICECREAM",
-        price: 37,
-        categrory: "DESERT",
-        img: "/images/27.jpg"
-    },
-    {
-        name: "TIRAMISU",
-        price: 32,
-        categrory: "DESERT",
-        img: "/images/29.jpg"
-    },
-    {
-        name: "COOKIES TIRAMISU",
-        price: 32,
-        categrory: "DESERT"
-    },
-    {
-        name: "CHOCOLATE KUNAFA",
-        price: 39,
-        categrory: "DESERT",
-        img: "/images/22.jpg"
-    },
-    {
-        name: "CHEESE CAKE PISTACHIO",
-        price: 39,
-        categrory: "DESERT",
-        img: "/images/23.jpg"
-    },
-    {
-        name: "LECHES TIRAMISU",
-        price: 39,
-        categrory: "DESERT",
-        img: "/images/24.jpg"
-    },
+  {
+      name: "CHOCOLATE KUNAFA",
+      price: 39,
+      categrory: "DESERT",
+      img: "/images/22.jpg",
+      desc:"A decadent twist on traditional kunafa, with layers of rich chocolate and crispy pastry, offering a perfect balance of sweetness and crunch!"
+ 
+  },
+  {
+      name: "CHEESE CAKE PISTACHIO",
+      price: 39,
+      categrory: "DESERT",
+      img: "/images/23.jpg",
+      desc:"A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+  },
+  {
+      name: "LECHES TIRAMISU",
+      price: 39,
+      categrory: "DESERT",
+      img: "/images/24.jpg",
+      desc:"A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
+  },
 
 ]
 
