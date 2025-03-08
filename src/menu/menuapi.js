@@ -1,5 +1,3 @@
-import React from 'react';
-import StarRatings from 'react-star-ratings';
 
 const menuapi = [
   {
@@ -17,6 +15,7 @@ const menuapi = [
       rating: 4.0
   },
   {
+
       name: "Cortado",
       price: 22,
       categrory: "Hot Coffee",
@@ -75,7 +74,8 @@ const menuapi = [
   {
       name: "HIBISCUS",
       price: 25,
-      categrory: "Cold Coffee"
+      categrory: "Cold Coffee",
+      img: '/images/hibiscus.jpg',
   },
   {
       name: "ICED PASSION",
@@ -85,12 +85,14 @@ const menuapi = [
   {
       name: "MATCHA LATTE",
       price: 30,
-      categrory: "Cold Coffee"
+      categrory: "Cold Coffee",
+      img: '/images/creamym.jpg',
   },
   {
       name: "CREAMY MATCHA",
       price: 20,
-      categrory: "Cold Coffee"
+      categrory: "Cold Coffee",
+      img: '/images/creamymatcha.jpg',
   },
   {
       name: "SUNSET SIGNATURE",
@@ -100,7 +102,8 @@ const menuapi = [
   {
       name: "AÇAÌ SMOOTHIE",
       price: 28,
-      categrory: "Cold Coffee"
+      categrory: "Cold Coffee",
+      img: '/images/acai.jpg',
   },
 
   {
@@ -119,23 +122,28 @@ const menuapi = [
   {
       name: "CHEMEX",
       price: 33,
-      categrory: "FILTERED COFFEE"
+      categrory: "FILTERED COFFEE",
+       img: '/images/chemex.jpg'
   },
 
   {
       name: "Orange Juice",
       price: 25,
-      categrory: "Fuice & Water"
+      categrory: "Fuice & Water",
+      img:'/images/orange.jpg'
   },
   {
       name: "Water",
       price: 5,
-      categrory: "Fuice & Water"
+      categrory: "Fuice & Water",
+      img:'/images/w.jpg'
+
   },
   {
       name: "Sparkling  Water",
       price: 10,
-      categrory: "Fuice & Water"
+      categrory: "Fuice & Water",
+         img:'/images/sparkling.jpg'
   },
   {
       name: "AVOCADO TOAST",
