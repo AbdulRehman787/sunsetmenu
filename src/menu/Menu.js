@@ -7,6 +7,8 @@ const categories = [
   { categ: "All" },
   { categ: "Hot Coffee" },
   { categ: "Cold Coffee" },
+
+  { categ: "Matcha" },
   { categ: "FILTERED COFFEE" },
   
   { categ: "Fuice & Water" },
@@ -15,6 +17,8 @@ const categories = [
 
   { categ: "SANDWICH" },
   { categ: "DESERT" },
+  { categ: "AFTERNOON SPECIAL" },
+ 
 ];
 
 const Menu = () => {
