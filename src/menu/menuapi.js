@@ -93,11 +93,13 @@ const menuapi = [
         price: 25,
         categrory: "Cold Coffee",
         img: '/images/aeropress.jpg',
+       
     },
     {
         name: "ICED PASSION",
         price: 25,
-        categrory: "Cold Coffee"
+        categrory: "Cold Coffee",
+        img: '/images/passiond.jpg',
     },
     {
         name: "MATCHA LATTE",
@@ -117,28 +119,26 @@ const menuapi = [
         price: 33,
         categrory: "Matcha",
 
-        img: '/images/creamym.jpg',
+        img: '/images/cloudyC.jpg',
     },
     {
         name: "Cocunut Strawberry MATCHA",
         price: 37,
         categrory: "Matcha",
 
-        img: '/images/creamym.jpg',
+        img: '/images/strawX.jpeg',
     },
     {
         name: "Iced Cocunut MATCHA",
         price: 32,
         categrory: "Matcha",
-
-        img: '/images/creamym.jpg',
+        img: '/images/cloudyC.jpg',
     },
     {
         name: "Mango MATCHA",
         price: 37,
         categrory: "Matcha",
-
-        img: '/images/creamym.jpg',
+        img: '/images/pa5.jpeg',
     },
     {
         name: "Mocha Coconut",
@@ -176,11 +176,7 @@ const menuapi = [
         categrory: "Matcha",
         img: '/images/creamym.jpg',
     },
-    {
-        name: "Mango Milk Shake",
-        price: 33,
-        categrory: "Drinks"
-    },
+  
     {
         name: "AÇAÌ SMOOTHIE",
         price: 33,
@@ -192,7 +188,7 @@ const menuapi = [
         name: "V 60",
         price: 35,
         categrory: "FILTERED COFFEE",
-        img: '/images/v60.jpg'
+        img: '/images/v60.jpeg'
     },
     {
         name: "COLD BREW",
@@ -211,21 +207,28 @@ const menuapi = [
     {
         name: "Orange Juice",
         price: 25,
-        categrory: "Fresh Fuice",
-        img: '/images/orange.jpg'
+        categrory: "Fuice & Water",
+        img: '/images/orange1.jpg'
+    },
+    {
+        name: "Mango Milk Shake",
+        price: 33,
+        categrory: "Fuice & Water",
+        img: '/images/mangojuice.jpg',
+        
     },
     {
         name: "Water",
         price: 5,
-        categrory: "Fresh Fuice ",
-        img: '/images/w.jpg'
+        categrory: "Fuice & Water",
+        img: '/images/maydubaiw.jpg',
 
     },
     {
         name: "Sparkling  Water",
         price: 10,
-        categrory: "Fresh Fuice",
-        img: '/images/sparkling.jpg'
+        categrory: "Fuice & Water",
+        img: '/images/sparkling.jpeg'
     },
     {
         name: "CLASSIC SMASHED AVOCADO",
@@ -271,17 +274,17 @@ const menuapi = [
         desc: 'A delicious egg bun sandwich with a soft, fluffy bun filled with a perfectly cooked egg, fresh veggies, and a savory sauce for a satisfying bite!'
     },
     {
-        name: "CROISSANT CHEESE",
+        name: "CROISSANT Egg & Avocado",
         price: 25,
         categrory: "CROISSANT",
-        img: '/images/14.jpg',
+        img: '/images/cea.jpeg',
         desc: "A buttery, flaky croissant with a rich and creamy cheese filling, perfect for a light and savory treat!"
     },
     {
         name: "CROISSANT EGG & CHEESE",
         price: 33,
         categrory: "CROISSANT",
-        img: '/images/corrisnt egg.jpg',
+        img: '/images/cegc.jpeg',
         desc: "A buttery, flaky croissant filled with fluffy scrambled eggs and melted cheese, creating a deliciously rich and satisfying breakfast treat!"
     },
     {
@@ -487,28 +490,28 @@ const menuapi = [
         name: "KUNAFA CHEESE CAKE",
         price: 35,
         categrory: "DESERT",
-        img: "/images/23.jpg",
+        img: "/images/kcc.jpeg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
     {
         name: "PULL UP",
         price: 39,
         categrory: "DESERT",
-        img: "/images/23.jpg",
+        img: "/images/pull.jpeg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
     {
-        name: "RANGGINA",
-        price: 30,
+        name: "Cocount raspberyy",
+        price: 37,
         categrory: "DESERT",
-        img: "/images/23.jpg",
+        img: "/images/rasp.jpeg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
     {
         name: "LUQAIMAT",
         price: 25,
         categrory: "DESERT",
-        img: "/images/23.jpg",
+        img: "/images/des1.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
     {
@@ -525,13 +528,7 @@ const menuapi = [
         img: "/images/afternspecaial.jpg",
         desc: "A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
     },
-    {
-        name: "Sunset Mango Milk Shake",
-        price: 33,
-        categrory: "Drinks",
-        img: "/images/afternspecaial.jpg",
-        desc: "A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
-    },
+  
     {
         name: "Frappuccino",
         price: 33,
