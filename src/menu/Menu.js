@@ -11,13 +11,15 @@ const categories = [
   { categ: "Matcha" },
   { categ: "FILTERED COFFEE" },
   
-  { categ: "Fuice & Water" },
+  { categ: "Juice & Water" },
   { categ: "BREAKFAST" },
   { categ: "CROISSANT" },
 
   { categ: "SANDWICH" },
   { categ: "DESERT" },
   { categ: "AFTERNOON SPECIAL" },
+  { categ: "Cake" },
+
  
 ];
 

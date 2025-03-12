@@ -207,27 +207,27 @@ const menuapi = [
     {
         name: "Orange Juice",
         price: 25,
-        categrory: "Fuice & Water",
+        categrory: "Juice & Water",
         img: '/images/orange1.jpg'
     },
     {
         name: "Mango Milk Shake",
         price: 33,
-        categrory: "Fuice & Water",
+        categrory: "Juice & Water",
         img: '/images/mangojuice.jpg',
         
     },
     {
         name: "Water",
         price: 5,
-        categrory: "Fuice & Water",
+        categrory: "Juice & Water",
         img: '/images/maydubaiw.jpg',
 
     },
     {
         name: "Sparkling  Water",
         price: 10,
-        categrory: "Fuice & Water",
+        categrory: "Juice & Water",
         img: '/images/sparkling.jpeg'
     },
     {
@@ -532,10 +532,33 @@ const menuapi = [
     {
         name: "Frappuccino",
         price: 33,
-        categrory: "Drinks",
-        img: "/images/afternspecaial.jpg",
-        desc: "A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
-    },
+        categrory: "Juice & Water",
+        img: "/images/pa8.jpeg",
+          },
+     {
+            name: "Mango Cheesecake ",
+            price: 180,
+            categrory: "Cake",
+            img: "/images/cake3.jpeg",
+     },
+     {
+        name: "White Chocolate raspberry cheesecake",
+        price: 180,
+        categrory: "Cake",
+        img: "/images/cake2.jpeg",
+ },
+ {
+    name: "Mango Cheesecake ",
+    price: 180,
+    categrory: "Cake",
+    img: "/images/cake3.jpeg",
+},
+{
+    name: "Tiramisu cake",
+    price: 180,
+    categrory: "Cake",
+    img: "/images/cake1.jpeg",
+},  
 ]
 
 export default menuapi;
