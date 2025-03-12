@@ -138,43 +138,38 @@ const menuapi = [
         name: "Mango MATCHA",
         price: 37,
         categrory: "Matcha",
-        img: '/images/pa5.jpeg',
+        img: '/images/mangomatcha.jpg',
     },
     {
         name: "Mocha Coconut",
         price: 29,
         categrory: "Matcha",
-        img: '/images/creamym.jpg',
+        img: '/images/motchacoconut.jpg',
     },
     {
         name: "Oat Milk Matcha",
         price: 32,
         categrory: "Matcha",
-        img: '/images/creamym.jpg',
+        img: '/images/matcha.jpg',
     },
     {
         name: "Oat  Strawberry Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/creamym.jpg',
+        img: '/images/strawX.jpeg',
     },
-    {
-        name: "Organic Strawberry Matcha",
-        price: 37,
-        categrory: "Matcha",
-        img: '/images/creamym.jpg',
-    },
+ 
     {
         name: "Sunset Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/creamym.jpg',
+        img: '/images/matcha1.jpg',
     },
     {
         name: "Strawberry Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/creamym.jpg',
+        img: '/images/strawX.jpeg',
     },
   
     {
