@@ -533,25 +533,25 @@ const menuapi = [
             name: "San Sebastián cheesecake",
             price: 180,
             categrory: "Cake",
-            img: "/images/cake4.jpeg",
+            img: "/images/cake4.jpg",
      },
      {
         name: "White Chocolate raspberry cheesecake",
         price: 180,
         categrory: "Cake",
-        img: "/images/cake2.jpeg",
+        img: "/images/cake2.jpg",
  },
  {
     name: "Tiramisu Cake ",
     price: 180,
     categrory: "Cake",
-    img: "/images/cake3.jpeg",
+    img: "/images/cake3.jpg",
 },
 {
     name: "Rafaello cake",
     price: 180,
     categrory: "Cake",
-    img: "/images/cake1.jpeg",
+    img: "/images/cake1.jpg",
 },  
 ]
 
