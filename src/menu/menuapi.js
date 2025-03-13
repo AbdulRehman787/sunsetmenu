@@ -125,8 +125,7 @@ const menuapi = [
         name: "Cocunut Strawberry MATCHA",
         price: 37,
         categrory: "Matcha",
-
-        img: '/images/strawX.jpeg',
+        img: '/images/strawX.png',
     },
     {
         name: "Iced Cocunut MATCHA",
@@ -156,7 +155,7 @@ const menuapi = [
         name: "Oat  Strawberry Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/strawX.jpeg',
+        img: '/images/strawX.png',
     },
  
     {
@@ -169,7 +168,7 @@ const menuapi = [
         name: "Strawberry Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/strawX.jpeg',
+        img: '/images/strawX.png',
     },
   
     {
@@ -478,7 +477,7 @@ const menuapi = [
         name: "FRENCHZU",
         price: 42,
         categrory: "DESERT",
-        img: "/images/frenchzu.jpeg",
+        img: "/images/frenchzu.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
     {
@@ -499,7 +498,7 @@ const menuapi = [
         name: "Cocount raspberyy",
         price: 37,
         categrory: "DESERT",
-        img: "/images/rasp.jpeg",
+        img: "/images/rasp.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
     {
@@ -531,10 +530,10 @@ const menuapi = [
         img: "/images/pa8.jpeg",
           },
      {
-            name: "Mango Cheesecake ",
+            name: "San Sebastián cheesecake",
             price: 180,
             categrory: "Cake",
-            img: "/images/cake3.jpeg",
+            img: "/images/cake4.jpeg",
      },
      {
         name: "White Chocolate raspberry cheesecake",
@@ -543,13 +542,13 @@ const menuapi = [
         img: "/images/cake2.jpeg",
  },
  {
-    name: "Mango Cheesecake ",
+    name: "Tiramisu Cake ",
     price: 180,
     categrory: "Cake",
     img: "/images/cake3.jpeg",
 },
 {
-    name: "Tiramisu cake",
+    name: "Rafaello cake",
     price: 180,
     categrory: "Cake",
     img: "/images/cake1.jpeg",
