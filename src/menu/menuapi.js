@@ -527,7 +527,7 @@ const menuapi = [
         name: "Frappuccino",
         price: 33,
         categrory: "Juice & Water",
-        img: "/images/pa8.jpeg",
+        img: "/images/pa8.jpg",
           },
      {
             name: "San Sebastián cheesecake",
