@@ -125,7 +125,7 @@ const menuapi = [
         name: "Cocunut Strawberry MATCHA",
         price: 37,
         categrory: "Matcha",
-        img: '/images/strawX.png',
+        img: '/images/strawX.jpg',
     },
     {
         name: "Iced Cocunut MATCHA",
@@ -155,7 +155,7 @@ const menuapi = [
         name: "Oat  Strawberry Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/strawX.png',
+        img: '/images/strawX.jpg',
     },
  
     {
@@ -168,7 +168,7 @@ const menuapi = [
         name: "Strawberry Matcha",
         price: 37,
         categrory: "Matcha",
-        img: '/images/strawX.png',
+        img: '/images/strawX.jpg',
     },
   
     {
