@@ -208,14 +208,14 @@ const menuapi = [
         name: "Mango Milk Shake",
         price: 33,
         categrory: "Juice & Water",
-        img: '/images/mangojuice.jpg',
+        img: '/images/mangoshake.jpg',
         
     },
     {
-        name: "Water",
-        price: 5,
+        name: "Sparkling  Water ",
+        price: 10,
         categrory: "Juice & Water",
-        img: '/images/maydubaiw.jpg',
+        img: '/images/sparkling1.jpeg',
 
     },
     {
@@ -527,7 +527,7 @@ const menuapi = [
         name: "Frappuccino",
         price: 33,
         categrory: "Juice & Water",
-        img: "/images/pa8.jpg",
+        img: "/images/frap.jpg",
           },
      {
             name: "San Sebastián cheesecake",
@@ -552,6 +552,12 @@ const menuapi = [
     price: 180,
     categrory: "Cake",
     img: "/images/cake1.jpg",
+},  
+{
+    name: "Mango Cheese cake",
+    price: 180,
+    categrory: "Cake",
+    img: "/images/mangocheesecake.jpeg",
 },  
 ]
 
