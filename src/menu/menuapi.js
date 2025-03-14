@@ -99,7 +99,7 @@ const menuapi = [
         name: "ICED PASSION",
         price: 25,
         categrory: "Cold Coffee",
-        img: '/images/passiond.jpg',
+        img: '/images/coldbrew.jpg'
     },
     {
         name: "MATCHA LATTE",
