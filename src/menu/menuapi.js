@@ -558,6 +558,11 @@ const menuapi = [
     price: 180,
     categrory: "Cake",
     img: "/images/mangocheesecake.jpeg",
+},  {
+    name: "Tiramisu cake",
+    price: 40,
+    categrory: "Cake",
+    img: "/images/tiramisu.jpg",
 },  
 ]
 
