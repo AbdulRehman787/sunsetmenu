@@ -83,6 +83,7 @@ const Menu = () => {
           <p className="no-items">No items found</p>
         )}
       </div>
+      {/* <h1>gello whirra</h1> */}
     </div>
   );
 };
