@@ -4,7 +4,7 @@ import MenuDetails from "./MenuDetails"; // Import Menu Details
 import "./style.css";
 
 const categories = [
-  { categ: "All" },
+  
   { categ: "Hot Coffee" },
   { categ: "Cold Coffee" },
 
@@ -24,13 +24,13 @@ const categories = [
 ];
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("Hot Coffee");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
 
   const filteredItems = menuapi.filter(
     (item) =>
-      (selectedCategory === "All" || item.categrory === selectedCategory) &&
+      (selectedCategory === item.categrory) && // "All" condition removed
       item.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
