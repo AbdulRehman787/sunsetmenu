@@ -3,178 +3,178 @@ const menuapi = [
     {
         name: "ESPRESSO",
         price: 18,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: "/images/esp.jpg",
         rating: 4.5
     },
     {
         name: "Piccolo",
         price: 22,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/picclo.jpg',
         rating: 4.0
     },
     {
         name: "Cortado",
         price: 22,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/cortado.jpg',
         rating: 4.5
     },
     {
         name: "Americano",
         price: 20,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/america.jpg',
         rating: 4.5
     },
     {
         name: "CAPPUCCINO",
         price: 23,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "CAFE LATTE",
         price: 23,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "FLAT WHITE",
         price: 23,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "SPANISH LATTE",
         price: 25,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "WINTER CHOCO",
         price: 25,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/choco.jpg'
     },
     {
         name: "HOT MATCHA LATTE",
         price: 25,
-        categrory: "Hot Coffee",
+        categrory: "HOT COFFEE",
         img: '/images/hotmacha.jpg'
     },
     {
         name: "ICED SPANISH",
         price: 25,
-        categrory: "Cold Coffee",
+        categrory: "COLD COFFEE",
         img: '/images/icedspanish.jpg'
     },
     {
         name: "ICED CAFE LATTE",
         price: 22,
-        categrory: "Cold Coffee",
+        categrory: "COLD COFFEE",
         img: '/images/icedcaffee.jpg'
     },
     {
         name: "Cold Americano",
         price: 22,
-        categrory: "Cold Coffee",
+        categrory: "COLD COFFEE",
         img: '/images/coldbrew.jpg'
     },
     {
         name: "HIBISCUS",
         price: 25,
-        categrory: "Cold Coffee",
+        categrory: "COLD COFFEE",
         img: '/images/hibiscus1.jpg',
     },
     {
         name: "AERO PRESS",
         price: 25,
-        categrory: "Cold Coffee",
+        categrory: "COLD COFFEE",
         img: '/images/aeropress.jpg',
        
     },
     {
         name: "ICED PASSION",
         price: 25,
-        categrory: "Cold Coffee",
+        categrory: "COLD COFFEE",
         img: '/images/coldbrew.jpg'
     },
     {
         name: "MATCHA LATTE",
         price: 30,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/creamymatcha.jpg',
     },
     {
         name: "CREAMY MATCHA",
         price: 20,
-        categrory: "Matcha",
+        categrory: "MATACHA",
 
         img: '/images/creamym.jpg',
     },
     {
         name: "Cloudy Cocunut  MATCHA",
         price: 33,
-        categrory: "Matcha",
+        categrory: "MATACHA",
 
         img: '/images/cloudyC.jpg',
     },
     {
         name: "Cocunut Strawberry MATCHA",
         price: 37,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/strawX.jpg',
     },
     {
         name: "Iced Cocunut MATCHA",
         price: 32,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/cloudyC.jpg',
     },
     {
         name: "Mango MATCHA",
         price: 37,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/mangomatcha.jpg',
     },
     {
         name: "Mocha Coconut",
         price: 29,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/motchacoconut.jpg',
     },
     {
         name: "Oat Milk Matcha",
         price: 32,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/matcha.jpg',
     },
     {
         name: "Oat  Strawberry Matcha",
         price: 37,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/strawX.jpg',
     },
  
     {
         name: "Sunset Matcha",
         price: 37,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/matcha1.jpg',
     },
     {
         name: "Strawberry Matcha",
         price: 37,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/strawX.jpg',
     },
   
     {
         name: "AÇAÌ SMOOTHIE",
         price: 33,
-        categrory: "Matcha",
+        categrory: "MATACHA",
         img: '/images/acai1.jpg',
     },
 
@@ -201,27 +201,27 @@ const menuapi = [
     {
         name: "Orange Juice",
         price: 25,
-        categrory: "Juice & Water",
+        categrory: "JUICE & WATER",
         img: '/images/orange1.jpg'
     },
     {
         name: "Mango Milk Shake",
         price: 33,
-        categrory: "Juice & Water",
+        categrory: "JUICE & WATER",
         img: '/images/mangoshake.jpg',
         
     },
     {
         name: "Sparkling  Water ",
         price: 10,
-        categrory: "Juice & Water",
+        categrory: "JUICE & WATER",
         img: '/images/sparkling1.jpeg',
 
     },
     {
         name: "Sparkling  Water",
         price: 10,
-        categrory: "Juice & Water",
+        categrory: "JUICE & WATER",
         img: '/images/sparkling.jpeg'
     },
     {
@@ -526,42 +526,42 @@ const menuapi = [
     {
         name: "Frappuccino",
         price: 33,
-        categrory: "Juice & Water",
+        categrory: "JUICE & WATER",
         img: "/images/frap.jpg",
           },
      {
             name: "San Sebastián cheesecake",
             price: 180,
-            categrory: "Cake",
+            categrory: "CAKE",
             img: "/images/cake4.jpg",
      },
      {
         name: "White Chocolate raspberry cheesecake",
         price: 180,
-        categrory: "Cake",
+        categrory: "CAKE",
         img: "/images/cake2.jpg",
  },
  {
     name: "Tiramisu Cake ",
     price: 180,
-    categrory: "Cake",
+    categrory: "CAKE",
     img: "/images/cake3.jpg",
 },
 {
     name: "Rafaello cake",
     price: 180,
-    categrory: "Cake",
+    categrory: "CAKE",
     img: "/images/cake1.jpg",
 },  
 {
     name: "Mango Cheese cake",
     price: 180,
-    categrory: "Cake",
+    categrory: "CAKE",
     img: "/images/mangocheesecake.jpeg",
 },  {
     name: "Tiramisu cake",
     price: 40,
-    categrory: "Cake",
+    categrory: "CAKE",
     img: "/images/tiramisu.jpg",
 },  
 ]

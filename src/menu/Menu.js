@@ -5,20 +5,20 @@ import "./style.css";
 
 const categories = [
   
-  { categ: "Hot Coffee" },
-  { categ: "Cold Coffee" },
+  { categ: "HOT COFFEE" },
+  { categ: "COLD COFFEE" },
 
-  { categ: "Matcha" },
+  { categ: "MATACHA" },
   { categ: "FILTERED COFFEE" },
   
-  { categ: "Juice & Water" },
+  { categ: "JUICE & WATER" },
   { categ: "BREAKFAST" },
   { categ: "CROISSANT" },
 
   { categ: "SANDWICH" },
   { categ: "DESERT" },
   { categ: "AFTERNOON SPECIAL" },
-  { categ: "Cake" },
+  { categ: "CAKE" },
 
  
 ];
