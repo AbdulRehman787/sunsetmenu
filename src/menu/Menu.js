@@ -5,7 +5,7 @@ import "./style.css";
 
 const categories = [
 
-  { categ: "Hot Coffee" },
+  { categ: "HOT COFFEE" },
   { categ: "COLD COFFEE" },
   { categ: "MATACHA" },
   { categ: "FILTERED COFFEE" },
@@ -21,7 +21,7 @@ const categories = [
 ];
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Hot Coffee");
+  const [selectedCategory, setSelectedCategory] = useState("HOT COFFEE");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
 
