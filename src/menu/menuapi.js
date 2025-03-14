@@ -3,65 +3,65 @@ const menuapi = [
     {
         name: "ESPRESSO",
         price: 18,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: "/images/esp.jpg",
         rating: 4.5
     },
     {
         name: "Piccolo",
         price: 22,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/picclo.jpg',
         rating: 4.0
     },
     {
         name: "Cortado",
         price: 22,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/cortado.jpg',
         rating: 4.5
     },
     {
         name: "Americano",
         price: 20,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/america.jpg',
         rating: 4.5
     },
     {
         name: "CAPPUCCINO",
         price: 23,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/spanish1.jpg'
     },
     {
         name: "CAFE LATTE",
         price: 23,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/spanish1.jpg'
     },
     {
         name: "FLAT WHITE",
         price: 23,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/spanish1.jpg'
     },
     {
         name: "SPANISH LATTE",
         price: 25,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/spanish1.jpg'
     },
     {
         name: "WINTER CHOCO",
         price: 25,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/choco.jpg'
     },
     {
         name: "HOT MATCHA LATTE",
         price: 25,
-        categrory: "HOT COFFEE",
+        categrory: "Hot Coffee",
         img: '/images/hotmacha.jpg'
     },
     {

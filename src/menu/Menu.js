@@ -4,33 +4,30 @@ import MenuDetails from "./MenuDetails"; // Import Menu Details
 import "./style.css";
 
 const categories = [
-  
-  { categ: "HOT COFFEE" },
-  { categ: "COLD COFFEE" },
 
+  { categ: "Hot Coffee" },
+  { categ: "COLD COFFEE" },
   { categ: "MATACHA" },
   { categ: "FILTERED COFFEE" },
-  
   { categ: "JUICE & WATER" },
   { categ: "BREAKFAST" },
   { categ: "CROISSANT" },
-
   { categ: "SANDWICH" },
   { categ: "DESERT" },
   { categ: "AFTERNOON SPECIAL" },
   { categ: "CAKE" },
 
- 
+
 ];
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState("HOT COFFEE");
+  const [selectedCategory, setSelectedCategory] = useState("Hot Coffee");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
 
   const filteredItems = menuapi.filter(
     (item) =>
-      (selectedCategory === item.categrory) && // "All" condition removed
+      (selectedCategory === item.categrory) && 
       item.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -40,11 +37,11 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-    
-<div className="title-container">
-<img src="/images/logoe.png" alt="Logo" className="logo"  />
-<h1 className="title">Sunset Coffee</h1>
-</div>  
+
+      <div className="title-container">
+        <img src="/images/logoe.png" alt="Logo" className="logo" />
+        <h1 className="title">Sunset Coffee</h1>
+      </div>
 
 
       {/* Search Bar */}
@@ -83,7 +80,6 @@ const Menu = () => {
           <p className="no-items">No items found</p>
         )}
       </div>
-      {/* <h1>gello whirra</h1> */}
     </div>
   );
 };
