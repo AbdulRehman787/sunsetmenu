@@ -116,7 +116,7 @@ const menuapi = [
     },
     {
         name: "Cloudy Cocunut  MATCHA",
-        price: 33,
+        price: 35,
         categrory: "MATACHA",
 
         img: '/images/cloudyC.jpg',
@@ -254,9 +254,17 @@ const menuapi = [
     },
     {
         name: "CROISSANT",
-        price: 17,
+        price: 25,
         categrory: "CROISSANT",
         img: '/images/Ncoriisant.jpg',
+        desc: 'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
+
+    },
+    {
+        name: "CROISSANT CHEESE",
+        price: 17,
+        categrory: "CROISSANT",
+        img: '/images/14.jpg',
         desc: 'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
 
     },
@@ -295,6 +303,13 @@ const menuapi = [
         desc: "A tasty falafel toast with crispy falafel patties, fresh veggies, and a drizzle of tahini sauce, all nestled between toasted bread for a flavorful bite!"
     },
     {
+        name: "HALLOUMI SANDWICH",
+        price: 30,
+        categrory: "BREAKFAST",
+        img: "/images/hallomi.PNG",
+        desc: "A tasty falafel toast with crispy falafel patties, fresh veggies, and a drizzle of tahini sauce, all nestled between toasted bread for a flavorful bite!"
+    },
+    {
         name: "OMELETTE",
         price: 35,
         categrory: "BREAKFAST",
@@ -315,7 +330,7 @@ const menuapi = [
         desc: "A luxurious truffle egg toast with creamy scrambled eggs infused with truffle oil, served on a crispy toasted bread for a rich and indulgent flavor!"
     },
     {
-        name: "HALLOUMI SANDWICH",
+        name: "HALLOUMI SANDO",
         price: 30,
         categrory: "SANDWICH",
         img: "/images/7.jpg",
@@ -375,19 +390,19 @@ const menuapi = [
     },
     {
         name: "BROWNIES",
-        price: 28,
+        price: 30,
         categrory: "DESERT",
         img: "/images/19.jpg"
     }, {
         name: "COOKIES",
-        price: 18,
+        price: 25,
         categrory: "DESERT",
         img: '/images/cookies.jpg',
         desc: "Freshly baked, soft, and chewy cookies with a perfect balance of sweetness and crunch in every bite!"
     },
     {
         name: "PUDDING",
-        price: 32,
+        price: 35,
         categrory: "DESERT",
         img: "/images/18.jpg",
         desc: "A rich and creamy pudding, perfectly smooth and sweet for a delightful treat!"
@@ -454,7 +469,7 @@ const menuapi = [
     },
     {
         name: "CHOCOLATE KUNAFA",
-        price: 39,
+        price: 40,
         categrory: "DESERT",
         img: "/images/22.jpg",
         desc: "A decadent twist on traditional kunafa, with layers of rich chocolate and crispy pastry, offering a perfect balance of sweetness and crunch!"
@@ -543,25 +558,95 @@ const menuapi = [
  },
  {
     name: "Tiramisu Cake ",
-    price: 180,
+    price: 160,
     categrory: "CAKE",
     img: "/images/cake3.jpg",
 },
 {
     name: "Rafaello cake",
-    price: 180,
+    price: 160,
     categrory: "CAKE",
     img: "/images/cake1.jpg",
 },  
 {
     name: "Mango Cheese cake",
-    price: 180,
+    price: 160,
     categrory: "CAKE",
     img: "/images/mangocheesecake.jpeg",
 },  {
     name: "Tiramisu cake",
-    price: 40,
+    price: 160,
     categrory: "CAKE",
+    img: "/images/tiramisu.jpg",
+},  
+{
+    name: "CHOCOLATE KUNAFA",
+    price: 160,
+    categrory: "CAKE",
+    img: "/images/chocokunafa.jpg",
+},   {
+    name: "DATE PUDDING",
+    price: 160,
+    categrory: "CAKE",
+    img: "/images/datepudd.jpg",
+},   {
+    name: "FRENCH TOAST",
+    price: 160,
+    categrory: "CAKE",
+    img: "/images/tiramisu.jpg",
+},  
+{
+    name: "PUDDING",
+    price: 160,
+    categrory: "CAKE",
+    img: "/images/tiramisu.jpg",
+},  {
+    name: "DATE PUDDING",
+    price: 160,
+    categrory: "CAKE",
+    img: "/images/tiramisu.jpg",
+},   {
+    name: "RAFFAELLO",
+    price: 160,
+    categrory: "CAKE",
+    img: "/images/tiramisu.jpg",
+},    {
+    name: "COCONUT OAT MATCHA",
+    price: 130,
+    categrory: "DRINKS PACKAGE",
+    img: "/images/tiramisu.jpg",
+},  
+{
+    name: "HOT CHOCOLATE ",
+    price: 150,
+    categrory: "DRINKS PACKAGE",
+    img: "/images/tiramisu.jpg",
+},  {
+    name: "ICED AMERICAONO",
+    price: 120,
+    categrory: "DRINKS PACKAGE",
+    img: "/images/tiramisu.jpg",
+},  
+{
+    name: "MANGO MILKSHAKE",
+    price: 135,
+    categrory: "DRINKS PACKAGE",
+    img: "/images/tiramisu.jpg",
+},  
+{
+    name: "SPANISH ICED BOTTLE",
+    price: 150,
+    categrory: "DRINKS PACKAGE",
+    img: "/images/tiramisu.jpg",
+},  {
+    name: "SUNSET MATCHA BOTTLE",
+    price: 120,
+    categrory: "DRINKS PACKAGE",
+    img: "/images/tiramisu.jpg",
+},  {
+    name: "WINTER PACKAGE",
+    price: 240,
+    categrory: "DRINKS PACKAGE",
     img: "/images/tiramisu.jpg",
 },  
 ]

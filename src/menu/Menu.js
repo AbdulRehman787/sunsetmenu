@@ -8,7 +8,7 @@ const categories = [
   { categ: "HOT COFFEE" },
   { categ: "COLD COFFEE" },
   { categ: "MATACHA" },
-  { categ: "FILTERED COFFEE" },
+  { categ: "FILTERED COFFEE"},
   { categ: "JUICE & WATER" },
   { categ: "BREAKFAST" },
   { categ: "CROISSANT" },
@@ -16,6 +16,7 @@ const categories = [
   { categ: "DESERT" },
   { categ: "AFTERNOON SPECIAL" },
   { categ: "CAKE" },
+  { categ: "DRINKS PACKAGE" },
 
 
 ];
