@@ -262,7 +262,7 @@ const menuapi = [
     },
     {
         name: "CROISSANT CHEESE",
-        price: 17,
+        price: 25,
         categrory: "CROISSANT",
         img: '/images/14.jpg',
         desc: 'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
@@ -419,7 +419,7 @@ const menuapi = [
         price: 39,
         categrory: "DESERT"
         ,
-        img: "/images/25.jpg",
+        img: "/images/frenchtoast1.jpeg",
         desc: "Golden, crispy French toast, perfectly sweet and topped with syrup for a delicious breakfast treat!"
     },
     {
@@ -609,7 +609,7 @@ const menuapi = [
     name: "RAFFAELLO",
     price: 160,
     categrory: "CAKE",
-    img: "/images/tiramisu.jpg",
+    img: "/images/raffelocake.jpg",
 },    {
     name: "COCONUT OAT MATCHA",
     price: 130,
