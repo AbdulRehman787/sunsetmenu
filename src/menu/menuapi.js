@@ -241,7 +241,7 @@ const menuapi = [
         name: "Turkish Egg ",
         price: 35,
         categrory: "BREAKFAST",
-        img: '/images/8.jpg',
+        img: '/images/88.jpg',
         desc: 'A traditional Turkish egg dish with poached eggs, rich yogurt, and a flavorful garlic butter sauce, topped with spices for a savory delight!'
 
     },
