@@ -212,7 +212,7 @@ const menuapi = [
         
     },
     {
-        name: "Sparkling  Water ",
+        name: "Sparkling  Water",
         price: 10,
         categrory: "JUICE & WATER",
         img: '/images/sparkling1.jpeg',
@@ -593,18 +593,15 @@ const menuapi = [
     name: "FRENCH TOAST",
     price: 160,
     categrory: "CAKE",
-    img: "/images/tiramisu.jpg",
 },  
 {
     name: "PUDDING",
     price: 160,
     categrory: "CAKE",
-    img: "/images/tiramisu.jpg",
 },  {
     name: "DATE PUDDING",
     price: 160,
     categrory: "CAKE",
-    img: "/images/tiramisu.jpg",
 },   {
     name: "RAFFAELLO",
     price: 160,
@@ -614,40 +611,35 @@ const menuapi = [
     name: "COCONUT OAT MATCHA",
     price: 130,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
 },  
 {
     name: "HOT CHOCOLATE ",
     price: 150,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
 },  {
     name: "ICED AMERICAONO",
     price: 120,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
 },  
 {
     name: "MANGO MILKSHAKE",
     price: 135,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
 },  
 {
     name: "SPANISH ICED BOTTLE",
     price: 150,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
 },  {
     name: "SUNSET MATCHA BOTTLE",
     price: 120,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
+  
 },  {
     name: "WINTER PACKAGE",
     price: 240,
     categrory: "DRINKS PACKAGE",
-    img: "/images/tiramisu.jpg",
+    
 },  
 ]
 
