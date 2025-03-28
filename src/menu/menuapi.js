@@ -593,15 +593,19 @@ const menuapi = [
     name: "FRENCH TOAST",
     price: 160,
     categrory: "CAKE",
+    img: "/images/frenchtoast1.jpeg",
 },  
 {
     name: "PUDDING",
     price: 160,
+    img: "/images/normalP.jpg",
     categrory: "CAKE",
 },  {
     name: "DATE PUDDING",
     price: 160,
     categrory: "CAKE",
+    img: "/images/datepudd1.jpg",
+
 },   {
     name: "RAFFAELLO",
     price: 160,

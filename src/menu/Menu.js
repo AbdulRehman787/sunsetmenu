@@ -4,7 +4,6 @@ import MenuDetails from "./MenuDetails"; // Import Menu Details
 import "./style.css";
 
 const categories = [
-
   { categ: "HOT COFFEE" },
   { categ: "COLD COFFEE" },
   { categ: "MATACHA" },
@@ -17,8 +16,6 @@ const categories = [
   { categ: "AFTERNOON SPECIAL" },
   { categ: "CAKE" },
   { categ: "DRINKS PACKAGE" },
-
-
 ];
 
 const Menu = () => {
@@ -43,9 +40,6 @@ const Menu = () => {
         <img src="/images/logoe.png" alt="Logo" className="logo" />
         <h1 className="title">Sunset Coffee</h1>
       </div>
-
-
-      {/* Search Bar */}
       <input
         type="text"
         placeholder="Search for menu item"
@@ -54,7 +48,6 @@ const Menu = () => {
         className="search-bar"
       />
 
-      {/* Category Menu */}
       <div className="category-menu">
         {categories.map((cat, index) => (
           <button
