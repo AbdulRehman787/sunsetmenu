@@ -156,7 +156,19 @@ const menuapi = [
         categrory: "MATACHA",
         img: '/images/acai1.jpg',
     },
+    {
+        name: "AÇAÌ SMOOTHIE",
+        price: 33,
+        categrory: "NEW SHAKE",
+        img: '/images/acai1.jpg',
+    },
+    {
+        name: "MANGO MILKSHAKE",
+        price: 33,
+        categrory: "NEW SHAKE",
+        img: '/images/mangoshake.jpg',
 
+    },
     {
         name: "V 60",
         price: 35,
@@ -183,13 +195,7 @@ const menuapi = [
         categrory: "JUICE & WATER",
         img: '/images/orange1.jpg'
     },
-    {
-        name: "Mango Milk Shake",
-        price: 33,
-        categrory: "JUICE & WATER",
-        img: '/images/mangoshake.jpg',
-        
-    },
+   
     {
         name: "Sparkling  Water",
         price: 10,
@@ -573,13 +579,7 @@ const menuapi = [
     price: 160,
     img: "/images/normalP.jpg",
     categrory: "CAKE",
-},  {
-    name: "DATE PUDDING",
-    price: 160,
-    categrory: "CAKE",
-    img: "/images/datepudd1.jpg",
-
-},   {
+}, {
     name: "RAFFAELLO",
     price: 160,
     categrory: "CAKE",
