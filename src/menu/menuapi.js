@@ -99,7 +99,7 @@ const menuapi = [
         name: "ICED PASSION",
         price: 25,
         categrory: "COLD COFFEE",
-        img: '/images/coldbrew.jpg'
+        img: '/images/icedpassion.jpg'
     },
     {
         name: "MATCHA LATTE",
@@ -114,19 +114,8 @@ const menuapi = [
 
         img: '/images/creamym.jpg',
     },
-    {
-        name: "Cloudy Cocunut  MATCHA",
-        price: 35,
-        categrory: "MATACHA",
-
-        img: '/images/cloudyC.jpg',
-    },
-    {
-        name: "Cocunut Strawberry MATCHA",
-        price: 37,
-        categrory: "MATACHA",
-        img: '/images/strawX.jpg',
-    },
+   
+    
     {
         name: "Iced Cocunut MATCHA",
         price: 32,
@@ -139,24 +128,14 @@ const menuapi = [
         categrory: "MATACHA",
         img: '/images/mangomatcha.jpg',
     },
-    {
-        name: "Mocha Coconut",
-        price: 29,
-        categrory: "MATACHA",
-        img: '/images/motchacoconut.jpg',
-    },
-    {
-        name: "Oat Milk Matcha",
-        price: 32,
-        categrory: "MATACHA",
-        img: '/images/matcha.jpg',
-    },
-    {
-        name: "Oat  Strawberry Matcha",
-        price: 37,
-        categrory: "MATACHA",
-        img: '/images/strawX.jpg',
-    },
+   
+    // {
+    //     name: "Oat Milk Matcha",
+    //     price: 32,
+    //     categrory: "MATACHA",
+    //     img: '/images/matcha.jpg',
+    // },
+      
  
     {
         name: "Sunset Matcha",
@@ -332,7 +311,7 @@ const menuapi = [
     {
         name: "HALLOUMI SANDO",
         price: 30,
-        categrory: "SANDWICH",
+        categrory: "BREAKFAST",
         img: "/images/7.jpg",
         desc: 'A delicious Halloumi sandwich with grilled halloumi cheese, fresh veggies, and a flavorful sauce, all packed in toasted bread!'
     },
@@ -381,13 +360,7 @@ const menuapi = [
         img: "/images/28.jpg",
         desc: "A delicious and nutrient-packed Açaí Bowl, topped with fresh fruits, granola, and honey for the perfect energy boost!"
     },
-    {
-        name: "AÇAÌ SMOOTHIE",
-        price: 33,
-        categrory: "DESERT",
-        img: '/images/acai1.jpg',
-        desc: "A refreshing and creamy Açaí Smoothie, packed with antioxidants and blended with fresh fruits for a perfect energy boost!"
-    },
+   
     {
         name: "BROWNIES",
         price: 30,
@@ -541,7 +514,7 @@ const menuapi = [
     {
         name: "Frappuccino",
         price: 33,
-        categrory: "JUICE & WATER",
+        categrory: "COLD COFFEE",
         img: "/images/frap.jpg",
           },
      {
