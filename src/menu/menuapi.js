@@ -3,21 +3,21 @@ const menuapi = [
     {
         name: "ESPRESSO",
         price: 18,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: "/images/esp.jpg",
         rating: 4.5
     },
     {
         name: "Piccolo",
         price: 22,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/picclo.jpg',
         rating: 4.0
     },
     {
         name: "Cortado",
         price: 22,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/cortado.jpg',
         rating: 4.5
     },
@@ -369,7 +369,7 @@ const menuapi = [
         name: "COOKIES",
         price: 25,
         categrory: "DESERT",
-        img: '/images/cookies.jpg',
+        img: '/images/cookies.jpeg',
         desc: "Freshly baked, soft, and chewy cookies with a perfect balance of sweetness and crunch in every bite!"
     },
     {
@@ -383,7 +383,7 @@ const menuapi = [
         name: "DATE PUDDING",
         price: 35,
         categrory: "DESERT",
-        img: "/images/20.jpg",
+        img: "/images/datepudding.jpeg",
         desc: 'A warm and moist date pudding, rich in flavor with a caramel-like sweetness in every bite!'
     },
     {
@@ -578,11 +578,11 @@ const menuapi = [
     categrory: "CAKE",
     img: "/images/raffelocake.jpg",
 }, 
-{
-    name: "HOT CHOCOLATE ",
-    price: 150,
-    categrory: "DRINKS PACKAGE",
-} 
+// {
+//     name: "HOT CHOCOLATE ",
+//     price: 150,
+//     categrory: "DRINKS PACKAGE",
+// } 
 ]
 
 export default menuapi;

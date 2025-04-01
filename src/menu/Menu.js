@@ -16,11 +16,11 @@ const categories = [
   { categ: "DESERT" },
   { categ: "AFTERNOON SPECIAL" },
   { categ: "CAKE" },
-  { categ: "DRINKS PACKAGE" },
+  // { categ: "DRINKS PACKAGE" },
 ];
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState("HOT COFFEE");
+  const [selectedCategory, setSelectedCategory] = useState("COFFEE");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
 
