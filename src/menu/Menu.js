@@ -4,18 +4,19 @@ import MenuDetails from "./MenuDetails"; // Import Menu Details
 import "./style.css";
 
 const categories = [
-  { categ: "COFFEE" },
-
-  { categ: "MATACHA" },
-  { categ: "COLD DRINKS" },
-  { categ: "FILTERED COFFEE"},
-  { categ: "JUICE & WATER" },
   { categ: "BREAKFAST" },
   { categ: "CROISSANT" },
   { categ: "SANDWICH" },
   { categ: "DESERT" },
-  { categ: "AFTERNOON SPECIAL" },
+
+  { categ: "COFFEE" },
+  { categ: "FILTERED COFFEE"},
+  { categ: "MATACHA" },
+  { categ: "COLD DRINKS" },
+  { categ: "JUICE & WATER" },
   { categ: "CAKE" },
+  { categ: "AFTERNOON SPECIAL" },
+ 
   // { categ: "DRINKS PACKAGE" },
 ];
 
