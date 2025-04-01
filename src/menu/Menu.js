@@ -65,7 +65,7 @@ const Menu = () => {
       <div className="menu-grid">
         {filteredItems.length > 0 ? (
           filteredItems.map((item, id) => (
-            <div key={id} className="menu-item" onClick={() => setSelectedItem(item)}>
+            <div key={id} className="menu-item">
               <img src={item.img} alt={item.name} className="menu-img" /> {/* 🖼️ Show Image */}
               <p className="menu-name">{item.name}</p>
               <p className="menu-price">{item.price}</p>
