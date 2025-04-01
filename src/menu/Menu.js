@@ -4,10 +4,10 @@ import MenuDetails from "./MenuDetails"; // Import Menu Details
 import "./style.css";
 
 const categories = [
-  { categ: "HOT COFFEE" },
-  { categ: "COLD COFFEE" },
+  { categ: "COFFEE" },
+
   { categ: "MATACHA" },
-  { categ: "NEW SHAKE" },
+  { categ: "COLD DRINKS" },
   { categ: "FILTERED COFFEE"},
   { categ: "JUICE & WATER" },
   { categ: "BREAKFAST" },

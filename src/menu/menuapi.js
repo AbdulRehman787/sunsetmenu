@@ -24,81 +24,81 @@ const menuapi = [
     {
         name: "Americano",
         price: 20,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/america.jpg',
         rating: 4.5
     },
     {
         name: "CAPPUCCINO",
         price: 23,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "CAFE LATTE",
         price: 23,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "FLAT WHITE",
         price: 23,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "SPANISH LATTE",
         price: 25,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/spanish1.jpg'
     },
     {
         name: "WINTER CHOCO",
         price: 25,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/choco.jpg'
     },
     {
         name: "HOT MATCHA LATTE",
         price: 25,
-        categrory: "HOT COFFEE",
+        categrory: "COFFEE",
         img: '/images/hotmacha.jpg'
     },
     {
         name: "ICED SPANISH",
         price: 25,
-        categrory: "COLD COFFEE",
+        categrory: "COFFEE",
         img: '/images/icedspanish.jpg'
     },
     {
         name: "ICED CAFE LATTE",
         price: 22,
-        categrory: "COLD COFFEE",
+        categrory: "COFFEE",
         img: '/images/icedcaffee.jpg'
     },
     {
         name: "Cold Americano",
         price: 22,
-        categrory: "COLD COFFEE",
+        categrory: "COFFEE",
         img: '/images/coldbrew.jpg'
     },
     {
         name: "HIBISCUS",
         price: 25,
-        categrory: "COLD COFFEE",
+        categrory: "COLD DRINKS",
         img: '/images/hibiscus1.jpg',
     },
     {
         name: "AERO PRESS",
         price: 25,
-        categrory: "COLD COFFEE",
+        categrory: "COFFEE",
         img: '/images/aeropress.jpg',
        
     },
     {
         name: "ICED PASSION",
         price: 25,
-        categrory: "COLD COFFEE",
+        categrory: "COLD DRINKS",
         img: '/images/icedpassion.jpg'
     },
     {
@@ -115,7 +115,6 @@ const menuapi = [
         img: '/images/creamym.jpg',
     },
    
-    
     {
         name: "Iced Cocunut MATCHA",
         price: 32,
@@ -153,19 +152,14 @@ const menuapi = [
     {
         name: "AÇAÌ SMOOTHIE",
         price: 33,
-        categrory: "MATACHA",
+        categrory: "COLD DRINKS",
         img: '/images/acai1.jpg',
     },
-    {
-        name: "AÇAÌ SMOOTHIE",
-        price: 33,
-        categrory: "NEW SHAKE",
-        img: '/images/acai1.jpg',
-    },
+  
     {
         name: "MANGO MILKSHAKE",
         price: 33,
-        categrory: "NEW SHAKE",
+        categrory: "COLD DRINKS",
         img: '/images/mangoshake.jpg',
 
     },
@@ -251,7 +245,6 @@ const menuapi = [
         categrory: "CROISSANT",
         img: '/images/14.jpg',
         desc: 'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
-
     },
     {
         name: "EGG BUN SANDWICH",
@@ -584,40 +577,12 @@ const menuapi = [
     price: 160,
     categrory: "CAKE",
     img: "/images/raffelocake.jpg",
-},    {
-    name: "COCONUT OAT MATCHA",
-    price: 130,
-    categrory: "DRINKS PACKAGE",
-},  
+}, 
 {
     name: "HOT CHOCOLATE ",
     price: 150,
     categrory: "DRINKS PACKAGE",
-},  {
-    name: "ICED AMERICAONO",
-    price: 120,
-    categrory: "DRINKS PACKAGE",
-},  
-{
-    name: "MANGO MILKSHAKE",
-    price: 135,
-    categrory: "DRINKS PACKAGE",
-},  
-{
-    name: "SPANISH ICED BOTTLE",
-    price: 150,
-    categrory: "DRINKS PACKAGE",
-},  {
-    name: "SUNSET MATCHA BOTTLE",
-    price: 120,
-    categrory: "DRINKS PACKAGE",
-  
-},  {
-    name: "WINTER PACKAGE",
-    price: 240,
-    categrory: "DRINKS PACKAGE",
-    
-},  
+} 
 ]
 
 export default menuapi;
