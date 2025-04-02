@@ -9,7 +9,7 @@ const menuapi = [
     },
     {
         name: "Piccolo",
-        price: 22,
+        price: 20,
         categrory: "COFFEE",
         img: '/images/picclo.jpg',
         rating: 4.0
@@ -35,7 +35,7 @@ const menuapi = [
         img: '/images/spanish1.jpg'
     },
     {
-        name: "CAFE LATTE",
+        name: "CofFE LATTE",
         price: 23,
         categrory: "COFFEE",
         img: '/images/spanish1.jpg'
@@ -54,7 +54,7 @@ const menuapi = [
     },
     {
         name: "WINTER CHOCO",
-        price: 25,
+        price: 23,
         categrory: "COFFEE",
         img: '/images/choco.jpg'
     },
@@ -72,13 +72,13 @@ const menuapi = [
     },
     {
         name: "ICED CAFE LATTE",
-        price: 22,
+        price: 23,
         categrory: "COFFEE",
         img: '/images/icedcaffee.jpg'
     },
     {
         name: "Cold Americano",
-        price: 22,
+        price: 20,
         categrory: "COFFEE",
         img: '/images/coldbrew.jpg'
     },
@@ -177,7 +177,7 @@ const menuapi = [
     },
     {
         name: "AERO PRESS",
-        price: 25,
+        price: 33,
         categrory: "FILTERED COFFEE",
         img: '/images/aeropress.jpg',
        
@@ -245,8 +245,8 @@ const menuapi = [
         desc: "A classic cheese sandwich with melted cheese between two slices of toasted bread, creating a warm and gooey comfort food treat!"
     },
     {
-        name: "CROISSANT",
-        price: 25,
+        name: "CROISSANT plain",
+        price: 17 ,
         categrory: "CROISSANT",
         img: '/images/Ncoriisant.jpg',
         desc: 'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
@@ -268,13 +268,13 @@ const menuapi = [
     },
     {
         name: "CROISSANT Egg & Avocado",
-        price: 25,
+        price: 33,
         categrory: "CROISSANT",
         img: '/images/cea.jpeg',
         desc: "A buttery, flaky croissant with a rich and creamy cheese filling, perfect for a light and savory treat!"
     },
     {
-        name: "CROISSANT EGG & CHEESE",
+        name: "CROISSANT scrambled EGG ",
         price: 33,
         categrory: "CROISSANT",
         img: '/images/cegc.jpeg',
@@ -322,7 +322,7 @@ const menuapi = [
     },
     {
         name: "HALLOUMI SANDO",
-        price: 25,
+        price: 30,
         categrory: "BREAKFAST",
         img: "/images/7.jpg",
         desc: 'A delicious Halloumi sandwich with grilled halloumi cheese, fresh veggies, and a flavorful sauce, all packed in toasted bread!'
@@ -353,7 +353,7 @@ const menuapi = [
     },
     {
         name: "CHICKEN AVO SANDWICH",
-        price: 35,
+        price: 32,
         categrory: "SANDWICH",
         img: "/images/16.jpg",
         desc: "A tasty chicken avocado sandwich with juicy grilled chicken, creamy avocado, and fresh veggies in toasted bread!"
@@ -370,19 +370,19 @@ const menuapi = [
    
     {
         name: "BROWNIES",
-        price: 30,
+        price: 28,
         categrory: "DESERT",
         img: "/images/19.jpg"
     }, {
         name: "COOKIES",
-        price: 25,
+        price: 18,
         categrory: "DESERT",
         img: '/images/cookies.jpeg',
         desc: "Freshly baked, soft, and chewy cookies with a perfect balance of sweetness and crunch in every bite!"
     },
     {
         name: "PUDDING",
-        price: 35,
+        price: 32,
         categrory: "DESERT",
         img: "/images/18.jpg",
         desc: "A rich and creamy pudding, perfectly smooth and sweet for a delightful treat!"
@@ -441,7 +441,7 @@ const menuapi = [
 
     {
         name: "COOKIES TIRAMISU",
-        price: 32,
+        price: 35,
         categrory: "DESERT",
         img: "/images/cookiestraismo.jpg",
         desc: "A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!"
@@ -512,7 +512,7 @@ const menuapi = [
     // },
     {
         name: "LECHES TIRAMISU",
-        price: 39,
+        price: 32,
         categrory: "DESERT",
         img: "/images/24.jpg",
         desc: "A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
