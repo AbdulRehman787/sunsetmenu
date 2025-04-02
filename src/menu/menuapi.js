@@ -327,12 +327,7 @@ const menuapi = [
         img: "/images/15.jpg",
         desc: 'A classic tuna sandwich with creamy tuna filling, crisp lettuce, and fresh bread for a perfect savory bite!'
     },
-    {
-        name: "CHICKEN AVO",
-        price: 35,
-        categrory: "BREAKFAST",
-        img: "/images/16.jpg"
-    },
+   
     {
         name: "PEPPERONI SANDWICH",
         price: 30,
