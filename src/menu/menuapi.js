@@ -61,7 +61,7 @@ const menuapi = [
     {
         name: "HOT MATCHA LATTE",
         price: 25,
-        categrory: "COFFEE",
+        categrory: "MATACHA",
         img: '/images/hotmacha.jpg'
     },
     {
@@ -88,13 +88,7 @@ const menuapi = [
         categrory: "COLD DRINKS",
         img: '/images/hibiscus1.jpg',
     },
-    {
-        name: "AERO PRESS",
-        price: 25,
-        categrory: "COFFEE",
-        img: '/images/aeropress.jpg',
-       
-    },
+    
     {
         name: "ICED PASSION",
         price: 25,
@@ -112,9 +106,15 @@ const menuapi = [
         price: 20,
         categrory: "MATACHA",
 
-        img: '/images/creamym.jpg',
+        img: '/images/creamymatcha.jpeg',
     },
-   
+    {
+        name: "AFFOGATO MATCHA",
+        price: 30,
+        categrory: "MATACHA",
+
+        img: '/images/affogato.jpg',
+    },
     {
         name: "Iced Cocunut MATCHA",
         price: 32,
@@ -140,7 +140,7 @@ const menuapi = [
         name: "Sunset Matcha",
         price: 37,
         categrory: "MATACHA",
-        img: '/images/matcha1.jpg',
+        img: '/images/sunsetmatacha.jpeg',
     },
     {
         name: "Strawberry Matcha",
@@ -175,7 +175,13 @@ const menuapi = [
         categrory: "FILTERED COFFEE",
         img: '/images/coldbrew.jpg',
     },
-
+    {
+        name: "AERO PRESS",
+        price: 25,
+        categrory: "FILTERED COFFEE",
+        img: '/images/aeropress.jpg',
+       
+    },
     {
         name: "CHEMEX",
         price: 33,

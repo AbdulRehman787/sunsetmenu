@@ -21,7 +21,7 @@ const categories = [
 ];
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState("COFFEE");
+  const [selectedCategory, setSelectedCategory] = useState("BREAKFAST");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
 
