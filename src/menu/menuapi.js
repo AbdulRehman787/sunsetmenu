@@ -98,33 +98,33 @@ const menuapi = [
     {
         name: "MATCHA LATTE",
         price: 30,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
         img: '/images/creamymatcha.jpg',
     },
     {
         name: "CREAMY MATCHA",
         price: 20,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
 
         img: '/images/creamymatcha.jpeg',
     },
     {
         name: "AFFOGATO MATCHA",
         price: 30,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
 
         img: '/images/affogato.jpg',
     },
     {
         name: "Iced Cocunut MATCHA",
         price: 32,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
         img: '/images/cloudyC.jpg',
     },
     {
         name: "Mango MATCHA",
         price: 37,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
         img: '/images/mangomatcha.jpg',
     },
    
@@ -139,13 +139,13 @@ const menuapi = [
     {
         name: "Sunset Matcha",
         price: 37,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
         img: '/images/sunsetmatacha.jpeg',
     },
     {
         name: "Strawberry Matcha",
         price: 37,
-        categrory: "MATACHA",
+        categrory: "MATCHA",
         img: '/images/strawX.jpg',
     },
   
@@ -220,6 +220,13 @@ const menuapi = [
         price: 35,
         categrory: "BREAKFAST",
         img: '/images/10.jpg',
+        desc: 'A fresh and flavorful rocket sandwich with crisp rocket leaves, creamy spread, and hearty brown bread for a wholesome and delicious bite!'
+    },
+    {
+        name: "AVACADO TOAST",
+        price: 35,
+        categrory: "BREAKFAST",
+        img: '/images/0.jpg',
         desc: 'A fresh and flavorful rocket sandwich with crisp rocket leaves, creamy spread, and hearty brown bread for a wholesome and delicious bite!'
     },
     {
@@ -315,7 +322,7 @@ const menuapi = [
     },
     {
         name: "HALLOUMI SANDO",
-        price: 30,
+        price: 25,
         categrory: "BREAKFAST",
         img: "/images/7.jpg",
         desc: 'A delicious Halloumi sandwich with grilled halloumi cheese, fresh veggies, and a flavorful sauce, all packed in toasted bread!'
@@ -330,7 +337,7 @@ const menuapi = [
    
     {
         name: "PEPPERONI SANDWICH",
-        price: 30,
+        price: 33,
         categrory: "SANDWICH",
         img: "/images/17.jpg",
         desc: 'A flavorful pepperoni sandwich with melted cheese, zesty sauce, and crispy bread for a perfect savory delight!'
@@ -489,6 +496,13 @@ const menuapi = [
         img: "/images/rasp.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
+    {
+        name: "CRUNCHY CHOCO CAKE",
+        price: 35,
+        categrory: "DESERT",
+        img: "/images/chococrunch.jpeg",
+        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    },
     // {
     //     name: "LUQAIMAT",
     //     price: 25,
@@ -519,7 +533,7 @@ const menuapi = [
           },
      {
             name: "San Sebastián cheesecake",
-            price: 180,
+            price: 150,
             categrory: "CAKE",
             img: "/images/cake4.jpg",
      },
@@ -554,7 +568,7 @@ const menuapi = [
 },  
 {
     name: "CHOCOLATE KUNAFA",
-    price: 160,
+    price: 180,
     categrory: "CAKE",
     img: "/images/chocokunafa.jpg",
 },   {
@@ -570,7 +584,7 @@ const menuapi = [
 },  
 {
     name: "PUDDING",
-    price: 160,
+    price: 150,
     img: "/images/normalP.jpg",
     categrory: "CAKE",
 }, {

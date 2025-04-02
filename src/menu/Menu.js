@@ -11,7 +11,7 @@ const categories = [
 
   { categ: "COFFEE" },
   { categ: "FILTERED COFFEE"},
-  { categ: "MATACHA" },
+  { categ: "MATCHA" },
   { categ: "COLD DRINKS" },
   { categ: "JUICE & WATER" },
   { categ: "CAKE" },

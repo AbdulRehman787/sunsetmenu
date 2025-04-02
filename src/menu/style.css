@@ -36,6 +36,7 @@
   color: #fff;
   /* Ensure contrast */
   font-family: 'Montserrat';
+  text-transform: capitalize;
 }
 
 /* Search Bar */
@@ -124,7 +125,7 @@
 /* Menu Item Name & Price */
 .menu-name {
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #83171e;
   margin-top: 5px;
 }
@@ -140,6 +141,7 @@
   font-size: 16px;
   color: #83171e;
   font-weight: bold;
+  text-transform:uppercase ;
 }
 
 /* Media Queries for better responsiveness */
