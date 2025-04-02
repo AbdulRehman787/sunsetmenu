@@ -461,13 +461,13 @@ const menuapi = [
         img: "/images/creambrule.jpeg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
-    {
-        name: "FRENCHZU",
-        price: 42,
-        categrory: "DESERT",
-        img: "/images/frenchzu.jpg",
-        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
-    },
+    // {
+    //     name: "FRENCHZU",
+    //     price: 42,
+    //     categrory: "DESERT",
+    //     img: "/images/frenchzu.jpg",
+    //     desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    // },
     {
         name: "KUNAFA CHEESE CAKE",
         price: 35,
@@ -489,13 +489,13 @@ const menuapi = [
         img: "/images/rasp.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
-    {
-        name: "LUQAIMAT",
-        price: 25,
-        categrory: "DESERT",
-        img: "/images/des1.jpg",
-        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
-    },
+    // {
+    //     name: "LUQAIMAT",
+    //     price: 25,
+    //     categrory: "DESERT",
+    //     img: "/images/des1.jpg",
+    //     desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    // },
     {
         name: "LECHES TIRAMISU",
         price: 39,
