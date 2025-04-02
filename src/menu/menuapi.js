@@ -70,6 +70,18 @@ const menuapi = [
         categrory: "COFFEE",
         img: '/images/icedspanish.jpg'
     },
+    // {
+    //     name: "ICED cappuccino",
+    //     price: 23,
+    //     categrory: "COFFEE",
+    //     img: '/images/icedcapu.jpg'
+    // },
+    // {
+    //     name: "iced cafe mocha",
+    //     price: 27,
+    //     categrory: "COFFEE",
+    //     img: '/images/icedcaffeemocha.jpg'
+    // },
     {
         name: "ICED CAFE LATTE",
         price: 23,
@@ -496,13 +508,16 @@ const menuapi = [
         img: "/images/rasp.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
-    {
-        name: "CRUNCHY CHOCO CAKE",
-        price: 35,
-        categrory: "DESERT",
-        img: "/images/chococrunch.jpeg",
-        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
-    },
+    // {
+    //     name: "CRUNCHY CHOCO CAKE",
+    //     price: 35,
+    //     categrory: "DESERT",
+    //     img: "/images/chococrunch.jpeg",
+    //     desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    // },
+
+
+    
     // {
     //     name: "LUQAIMAT",
     //     price: 25,
