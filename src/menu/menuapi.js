@@ -508,13 +508,13 @@ const menuapi = [
         img: "/images/rasp.jpg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
-    // {
-    //     name: "CRUNCHY CHOCO CAKE",
-    //     price: 35,
-    //     categrory: "DESERT",
-    //     img: "/images/chococrunch.jpeg",
-    //     desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
-    // },
+    {
+        name: "CRUNCHY CHOCO CAKE",
+        price: 35,
+        categrory: "DESERT",
+        img: "/images/chococrunch.jpeg",
+        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    },
 
 
     
