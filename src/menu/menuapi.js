@@ -35,7 +35,7 @@ const menuapi = [
         img: '/images/spanish1.jpg'
     },
     {
-        name: "CofFE LATTE",
+        name: "CofFEe LATTE",
         price: 23,
         categrory: "COFFEE",
         img: '/images/spanish1.jpg'
