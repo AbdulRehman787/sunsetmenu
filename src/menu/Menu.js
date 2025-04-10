@@ -29,8 +29,8 @@ const Menu = () => {
     (item) =>
       (selectedCategory === item.categrory) && 
       item.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-
+  )
+  .sort((a, b) => a.name.localeCompare(b.name))
   if (selectedItem) {
     return <MenuDetails item={selectedItem} goBack={() => setSelectedItem(null)} />;
   }

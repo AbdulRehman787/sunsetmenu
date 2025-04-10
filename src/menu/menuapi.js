@@ -176,6 +176,13 @@ const menuapi = [
 
     },
     {
+        name: "Frappuccino",
+        price: 33,
+        categrory: "COLD DRINKS",
+        img: '/images/mangoshake.jpg',
+
+    },
+    {
         name: "V 60",
         price: 35,
         categrory: "FILTERED COFFEE",
@@ -575,12 +582,19 @@ const menuapi = [
     price: 160,
     categrory: "CAKE",
     img: "/images/mangocheesecake.jpeg",
-},  {
-    name: "Tiramisu cake",
-    price: 160,
-    categrory: "CAKE",
-    img: "/images/tiramisu.jpg",
-},  
+}, 
+// {
+//     name: "Kunafa Cheese cake",
+//     price: 160,
+//     categrory: "CAKE",
+//     img: "/images/mangocheesecake.jpeg",
+// }, 
+//  {
+//     name: "Tiramisu cake",
+//     price: 160,
+//     categrory: "CAKE",
+//     img: "/images/tiramisu.jpg",
+// },  
 {
     name: "CHOCOLATE KUNAFA",
     price: 180,
