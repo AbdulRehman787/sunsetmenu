@@ -231,7 +231,7 @@ const menuapi = [
         name: "Water",
         price: 5,
         categrory: "JUICE & WATER",
-        img: '/images/water.png'
+        img: '/images/sparkling1.jpeg'
     },
    
     
