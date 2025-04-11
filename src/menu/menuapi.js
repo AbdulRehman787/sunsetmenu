@@ -22,6 +22,13 @@ const menuapi = [
         rating: 4.5
     },
     {
+        name: "Spanish Cortado",
+        price: 22,
+        categrory: "COFFEE",
+        img: '/images/spanish1.jpg',
+        rating: 4.5
+    },
+    {
         name: "hot chocolate",
         price: 21,
         categrory: "COFFEE",
