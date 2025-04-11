@@ -123,7 +123,7 @@ const menuapi = [
     },
     {
         name: "MATCHA LATTE",
-        price: 30,
+        price: 33,
         categrory: "MATCHA",
         img: '/images/creamymatcha.jpg',
     },
@@ -164,7 +164,7 @@ const menuapi = [
  
     {
         name: "Sunset Matcha",
-        price: 37,
+        price: 30,
         categrory: "MATCHA",
         img: '/images/sunsetmatacha.jpeg',
     },
