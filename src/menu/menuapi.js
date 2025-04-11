@@ -22,6 +22,13 @@ const menuapi = [
         rating: 4.5
     },
     {
+        name: "hot chocolate",
+        price: 21,
+        categrory: "COFFEE",
+        img: '/images/hotchoco.jpg',
+        rating: 4.5
+    },
+    {
         name: "Americano",
         price: 20,
         categrory: "COFFEE",
@@ -118,7 +125,7 @@ const menuapi = [
         price: 20,
         categrory: "MATCHA",
 
-        img: '/images/creamymatcha.jpeg',
+        img: '/images/creamymatchas.jpeg',
     },
     {
         name: "AFFOGATO MATCHA",
@@ -128,7 +135,7 @@ const menuapi = [
         img: '/images/affogato.jpg',
     },
     {
-        name: "Iced Cocunut MATCHA",
+        name: "CLOUDY COCONUT MATCHA",
         price: 32,
         categrory: "MATCHA",
         img: '/images/cloudyC.jpg',
@@ -179,7 +186,7 @@ const menuapi = [
         name: "Frappuccino",
         price: 33,
         categrory: "COLD DRINKS",
-        img: '/images/mangoshake.jpg',
+        img: '/images/frapp.jpg',
 
     },
     {
@@ -213,15 +220,14 @@ const menuapi = [
         price: 25,
         categrory: "JUICE & WATER",
         img: '/images/orange1.jpg'
+    },  {
+        name: "Water",
+        price: 5,
+        categrory: "JUICE & WATER",
+        img: '/images/water.png'
     },
    
-    {
-        name: "Sparkling  Water",
-        price: 10,
-        categrory: "JUICE & WATER",
-        img: '/images/sparkling1.jpeg',
-
-    },
+    
     {
         name: "Sparkling  Water",
         price: 10,
@@ -234,15 +240,16 @@ const menuapi = [
         categrory: "BREAKFAST",
         img: '/images/6.jpg',
         desc: 'A delicious avocado toast topped with creamy mashed avocado, a sprinkle of seasoning, and a hint of lemon for the perfect light and healthy bite!'
-    }, {
-        name: "Rocket Sandwich",
-        price: 35,
-        categrory: "BREAKFAST",
-        img: '/images/10.jpg',
-        desc: 'A fresh and flavorful rocket sandwich with crisp rocket leaves, creamy spread, and hearty brown bread for a wholesome and delicious bite!'
     },
+    // , {
+    //     name: "Rocket Sandwich",
+    //     price: 35,
+    //     categrory: "BREAKFAST",
+    //     img: '/images/10.jpg',
+    //     desc: 'A fresh and flavorful rocket sandwich with crisp rocket leaves, creamy spread, and hearty brown bread for a wholesome and delicious bite!'
+    // },
     {
-        name: "AVACADO TOAST",
+        name: "AVoCADO TOAST",
         price: 35,
         categrory: "BREAKFAST",
         img: '/images/0.jpg',
@@ -252,7 +259,7 @@ const menuapi = [
         name: "Turkish Egg ",
         price: 35,
         categrory: "BREAKFAST",
-        img: '/images/88.jpg',
+        img: '/images/8.jpg',
         desc: 'A traditional Turkish egg dish with poached eggs, rich yogurt, and a flavorful garlic butter sauce, topped with spices for a savory delight!'
 
     },
@@ -260,14 +267,14 @@ const menuapi = [
         name: "CHEESE SANDWICH",
         price: 25,
         categrory: "BREAKFAST",
-        img: '/images/cheeses.jpg',
+        img: '/images/cheesesand1.jpg',
         desc: "A classic cheese sandwich with melted cheese between two slices of toasted bread, creating a warm and gooey comfort food treat!"
     },
     {
         name: "CROISSANT plain",
         price: 17 ,
         categrory: "CROISSANT",
-        img: '/images/Ncoriisant.jpg',
+        img: '/images/crossiantp.jpg',
         desc: 'A light, flaky, and buttery croissant with a golden, crispy exterior and a soft, airy inside!'
 
     },
@@ -286,17 +293,17 @@ const menuapi = [
         desc: 'A delicious egg bun sandwich with a soft, fluffy bun filled with a perfectly cooked egg, fresh veggies, and a savory sauce for a satisfying bite!'
     },
     {
-        name: "CROISSANT Egg & Avocado",
-        price: 33,
+        name: "CROISSANT Boiled Egg & Avocado",
+        price: 35,
         categrory: "CROISSANT",
         img: '/images/cea.jpeg',
         desc: "A buttery, flaky croissant with a rich and creamy cheese filling, perfect for a light and savory treat!"
     },
     {
-        name: "CROISSANT scrambled EGG ",
+        name: "CROISSANT scrambled EGG with cheese ",
         price: 33,
         categrory: "CROISSANT",
-        img: '/images/cegc.jpeg',
+        img: '/images/corrisnteggcheese.jpg',
         desc: "A buttery, flaky croissant filled with fluffy scrambled eggs and melted cheese, creating a deliciously rich and satisfying breakfast treat!"
     },
     {
@@ -339,13 +346,13 @@ const menuapi = [
          img: "/images/5.jpg",
         desc: "A luxurious truffle egg toast with creamy scrambled eggs infused with truffle oil, served on a crispy toasted bread for a rich and indulgent flavor!"
     },
-    {
-        name: "HALLOUMI SANDO",
-        price: 30,
-        categrory: "BREAKFAST",
-        img: "/images/7.jpg",
-        desc: 'A delicious Halloumi sandwich with grilled halloumi cheese, fresh veggies, and a flavorful sauce, all packed in toasted bread!'
-    },
+    // {
+    //     name: "HALLOUMI SANDO",
+    //     price: 30,
+    //     categrory: "BREAKFAST",
+    //     img: "/images/7.jpg",
+    //     desc: 'A delicious Halloumi sandwich with grilled halloumi cheese, fresh veggies, and a flavorful sauce, all packed in toasted bread!'
+    // },
     {
         name: "TUNA SANDWICH",
         price: 32,
@@ -363,13 +370,13 @@ const menuapi = [
 
 
     },
-    {
-        name: "PEPPERONI PIZZA SANDWICH",
-        price: 33,
-        categrory: "SANDWICH",
-        img: "/images/17.jpg",
-        desc: 'A delicious fusion of pizza and sandwich, loaded with spicy pepperoni, melted cheese, and zesty marinara sauce in crispy toasted bread!'
-    },
+    // {
+    //     name: "PEPPERONI PIZZA SANDWICH",
+    //     price: 33,
+    //     categrory: "SANDWICH",
+    //     img: "/images/17.jpg",
+    //     desc: 'A delicious fusion of pizza and sandwich, loaded with spicy pepperoni, melted cheese, and zesty marinara sauce in crispy toasted bread!'
+    // },
     {
         name: "CHICKEN AVO SANDWICH",
         price: 32,
@@ -421,13 +428,13 @@ const menuapi = [
         img: "/images/frenchtoast1.jpeg",
         desc: "Golden, crispy French toast, perfectly sweet and topped with syrup for a delicious breakfast treat!"
     },
-    {
-        name: "MOLTEN LAVA CAKE",
-        price: 30,
-        categrory: "DESERT",
-        img: "/images/moltenlava.jpg",
-        desc: "A rich and decadent molten lava cake with a gooey chocolate center that melts in every bite!"
-    },
+    // {
+    //     name: "MOLTEN LAVA CAKE",
+    //     price: 30,
+    //     categrory: "DESERT",
+    //     img: "/images/moltenlava.jpg",
+    //     desc: "A rich and decadent molten lava cake with a gooey chocolate center that melts in every bite!"
+    // },
     {
         name: "SAN SEBASTIÁN",
         price: 37,
@@ -442,13 +449,13 @@ const menuapi = [
         img: "/images/21.jpg",
         desc: "Fluffy and light Japanese pancakes, stacked high with a soft, cloud-like texture and a sweet, delicate flavor!"
     },
-    {
-        name: "SUNSET MANGO CHEESE CAKE",
-        price: 37,
-        categrory: "DESERT",
-        img: "/images/mangocheese.jpg",
-        desc: 'A rich and creamy mango cheesecake with a buttery crust, topped with fresh mango for a perfect tropical delight!'
-    },
+    // {
+    //     name: "SUNSET MANGO CHEESE CAKE",
+    //     price: 37,
+    //     categrory: "DESERT",
+    //     img: "/images/mangocheese.jpg",
+    //     desc: 'A rich and creamy mango cheesecake with a buttery crust, topped with fresh mango for a perfect tropical delight!'
+    // },
     {
         name: "SUNSET TOASTED ICECREAM",
         price: 37,
@@ -460,7 +467,7 @@ const menuapi = [
 
     {
         name: "COOKIES TIRAMISU",
-        price: 35,
+        price: 20,
         categrory: "DESERT",
         img: "/images/cookiestraismo.jpg",
         desc: "A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!"
@@ -473,13 +480,13 @@ const menuapi = [
         img: "/images/22.jpg",
         desc: "A decadent twist on traditional kunafa, with layers of rich chocolate and crispy pastry, offering a perfect balance of sweetness and crunch!"
     },
-    {
-        name: "CHEESE CAKE PISTACHIO",
-        price: 39,
-        categrory: "DESERT",
-        img: "/images/23.jpg",
-        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
-    },
+    // {
+    //     name: "CHEESE CAKE PISTACHIO",
+    //     price: 39,
+    //     categrory: "DESERT",
+    //     img: "/images/23.jpg",
+    //     desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    // },
     {
         name: "CREAM BRULEE",
         price: 39,
@@ -508,13 +515,13 @@ const menuapi = [
         img: "/images/pull.jpeg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
-    {
-        name: "Cocount raspberyy",
-        price: 37,
-        categrory: "DESERT",
-        img: "/images/rasp.jpg",
-        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
-    },
+    // {
+    //     name: "Cocount raspberyy",
+    //     price: 37,
+    //     categrory: "DESERT",
+    //     img: "/images/rasp.jpg",
+    //     desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    // },
     {
         name: "CRUNCHY CHOCO CAKE",
         price: 35,
@@ -616,11 +623,6 @@ const menuapi = [
     price: 150,
     img: "/images/normalP.jpg",
     categrory: "CAKE",
-}, {
-    name: "RAFFAELLO",
-    price: 160,
-    categrory: "CAKE",
-    img: "/images/raffelocake.jpg",
 }, 
 // {
 //     name: "HOT CHOCOLATE ",
