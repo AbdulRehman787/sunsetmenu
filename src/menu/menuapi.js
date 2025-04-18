@@ -554,9 +554,9 @@ const menuapi = [
         desc: "A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
     },
     {
-        name: "AFTERNOON SPECIAL",
+        name: "AFTERNOON Tea",
         price: 80,
-        categrory: "AFTERNOON SPECIAL",
+        categrory: "AFTERNOON Tea",
         img: "/images/afternspecaial.jpg",
         desc: "A delightful fusion of creamy tiramisu and rich leche, with layers of indulgent flavors and a smooth, velvety texture!"
     },

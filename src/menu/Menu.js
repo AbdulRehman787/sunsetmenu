@@ -15,7 +15,7 @@ const categories = [
   { categ: "COLD DRINKS" },
   { categ: "JUICE & WATER" },
   { categ: "CAKE" },
-  { categ: "AFTERNOON SPECIAL" },
+  { categ: "AFTERNOON TEA" },
  
   // { categ: "DRINKS PACKAGE" },
 ];
