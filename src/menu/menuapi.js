@@ -591,12 +591,12 @@ const menuapi = [
     categrory: "CAKE",
     img: "/images/cake1.jpg",
 },  
-{
-    name: "Mango Cheese cake",
-    price: 160,
-    categrory: "CAKE",
-    img: "/images/mangocheesecake.jpeg",
-}, 
+// {
+//     name: "Mango Cheese cake",
+//     price: 160,
+//     categrory: "CAKE",
+//     img: "/images/mangocheesecake.jpeg",
+// }, 
 // {
 //     name: "Kunafa Cheese cake",
 //     price: 160,
