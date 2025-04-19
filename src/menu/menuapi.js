@@ -474,7 +474,7 @@ const menuapi = [
 
     {
         name: "COOKIES TIRAMISU",
-        price: 20,
+        price: 22,
         categrory: "DESERT",
         img: "/images/cookiestraismo.jpg",
         desc: "A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!A classic Tiramisu, with layers of coffee-soaked ladyfingers and creamy mascarpone, dusted with cocoa for the perfect indulgence!"
