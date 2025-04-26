@@ -536,7 +536,13 @@ const menuapi = [
         img: "/images/chococrunch.jpeg",
         desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
     },
-
+    {
+        name: "Coco Mango",
+        price: 38,
+        categrory: "DESERT",
+        img: "/images/mangonew.jpeg",
+        desc: "A creamy cheesecake with a delightful pistachio flavor, topped with crushed pistachios for the perfect nutty finish!"
+    },
 
     
     // {
