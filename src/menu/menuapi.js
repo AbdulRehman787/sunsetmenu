@@ -642,7 +642,7 @@ const menuapi = [
 {
     name: "Mango cheese Cake",
     price: 162,
-    img: "/images/normalP.jpg",
+    img: "/images/mangocheesecake1.jpg",
     categrory: "CAKE",
 }, 
 // {
