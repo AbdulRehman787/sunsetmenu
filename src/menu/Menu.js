@@ -8,7 +8,6 @@ const categories = [
   { categ: "CROISSANT" },
   { categ: "SANDWICH" },
   { categ: "DESERT" },
-
   { categ: "COFFEE" },
   { categ: "FILTERED COFFEE"},
   { categ: "MATCHA" },
@@ -17,7 +16,6 @@ const categories = [
   { categ: "CAKE" },
   { categ: "AFTERNOON TEA" },
  
-  // { categ: "DRINKS PACKAGE" },
 ];
 
 const Menu = () => {
